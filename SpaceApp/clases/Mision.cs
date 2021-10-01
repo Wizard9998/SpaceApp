@@ -4,11 +4,7 @@ using System.Text;
 
 namespace SpaceApp.clases
 {
-    class Pregunta
+    class Mision
     {
-        string pregunta = " ";
-        int puntaje = 0;
-        int id_pregunta;
-
     }
 }
