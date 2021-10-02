@@ -6,7 +6,15 @@ namespace SpaceApp.clases
 {
     class Fachada
     {
-        List<Pregunta> preguntas = new List<Pregunta>(); 
+        List<Pregunta> preguntas;
+        List<Mision> misiones;
+
+        public Fachada()
+        {
+            preguntas = new List<Pregunta>();
+            misiones = new List<Mision>();
+
+        }
 
 
 
