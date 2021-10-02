@@ -37,6 +37,7 @@ namespace SpaceApp
         {
             Seleccion s = new Seleccion(fachada);
             s.Show();
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
