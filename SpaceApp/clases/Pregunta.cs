@@ -6,7 +6,7 @@ namespace SpaceApp.clases
 {
     class Pregunta : Fachada
     {
-        Fachada fachada;
+       
 
         string letra_pregunta = " ";
         int id_pregunta;
@@ -14,6 +14,8 @@ namespace SpaceApp.clases
         int id_respuesta = 0; 
        
         bool correcto = true;
+
+       
 
         public Pregunta(string letra_pregunta, int id_pregunta, string respuesta, int id_respuesta,  bool correcto)
         {

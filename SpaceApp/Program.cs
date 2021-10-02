@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace SpaceApp
 {
-    static class Program
+    static class Program 
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -24,8 +24,9 @@ namespace SpaceApp
             main.FormClosed += FromInicio_Closed;
             main.Show();
             Application.Run();
+            
+            
         }
-
         private static void FromInicio_Closed(object sender, FormClosedEventArgs e)
         {
             ((Form)sender).FormClosed -= FromInicio_Closed;
@@ -39,5 +40,11 @@ namespace SpaceApp
                 Application.OpenForms[0].FormClosed += FromInicio_Closed;
             }
         }
+        
+            
+            
+            
+            
+            }
     }
-}
+

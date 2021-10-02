@@ -78,8 +78,13 @@ namespace SpaceApp.clases
                     Console.WriteLine("Te quedaste sin vidas");
                 }
             }
+        
+
+        
+
 
         }
+
        
     }
 
