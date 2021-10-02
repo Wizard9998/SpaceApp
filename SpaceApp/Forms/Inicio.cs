@@ -15,7 +15,7 @@ namespace SpaceApp
 {
     public partial class FormInicio : Form
     {
-        private Fachada unaFachada;
+        public Fachada unaFachada;
 
         public FormInicio()
         {
