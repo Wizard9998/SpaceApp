@@ -4,8 +4,10 @@ using System.Text;
 
 namespace SpaceApp.clases
 {
-    class Pregunta
+    class Pregunta : Fachada
     {
+        Fachada fachada;
+
         string pregunta = " ";
         int id_pregunta;
         string respuesta = " ";
@@ -21,6 +23,26 @@ namespace SpaceApp.clases
             this.id_respuesta = id_respuesta;
             this.puntaje = puntaje;
             this.correcto = correcto;
+
         }
+
+        public string Pregunta { get => pregunta; set => pregunta = value; }
+        public int Id_pregunta { get => id_pregunta; set => id_pregunta = value; }
+        public string Respuesta { get => respuesta; set => respuesta = value; }
+        public int Id_respuesta { get => id_respuesta; set => id_respuesta = value; }
+        public int Puntaje { get => puntaje; set => puntaje = value; }
+        public bool Correcto { get => correcto; set => correcto = value; }
+
+        public void pregunta1()
+        {
+            string pregunta = "¿Cuánto dura un día en Marte?";
+            int id_pregunta = 1;
+            string respuesta = "24,6h";
+            int id_respuesta = 1;
+            int puntaje = 10;
+            bool correcto = true;
+            fachada.agregarPregunta(pregunta,id_pregunta,respuesta,id_respuesta,puntaje,correcto);
+        }
+
     }
 }

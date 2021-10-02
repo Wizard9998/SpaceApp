@@ -15,13 +15,17 @@ namespace SpaceApp.clases
         {
             preguntas = new List<Pregunta>();
             misiones = new List<Mision>();
-            
+            foreach (Pregunta preguntaAux in )
+            {
+                Console.WriteLine();
+            }
         }
         public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, int puntaje, bool correcto)
         {
-            Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, puntaje , correcto);
+            Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, puntaje, correcto);
             preguntas.Add(p);
         }
+
 
        
 
