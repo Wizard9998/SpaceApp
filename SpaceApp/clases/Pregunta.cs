@@ -6,8 +6,6 @@ namespace SpaceApp.clases
 {
     class Pregunta : Fachada
     {
-
-
         Fachada fachada;
 
         string letra_pregunta = " ";
