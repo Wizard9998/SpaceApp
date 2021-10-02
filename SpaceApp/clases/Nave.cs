@@ -15,6 +15,13 @@ namespace SpaceApp.clases
             nombre = "Galileo";
         }
 
+        public void Nave1()
+        {
+            int vida = 100;
+            string nombre = "Galileo";
+
+        }
+
         public int Vida { get => vida; set => vida = value; }
         public string Nombre { get => nombre; set => nombre = value; }
     }

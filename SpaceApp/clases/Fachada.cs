@@ -5,24 +5,31 @@ using System.Text;
 
 namespace SpaceApp.clases
 {
-    class Fachada 
+    class Fachada
     {
         List<Pregunta> preguntas;
         List<Mision> misiones;
-        Nave nave = new Nave(vida, string nombre);
+        List<Nave> naves;
+
+
         public Fachada()
         {
             preguntas = new List<Pregunta>();
             misiones = new List<Mision>();
-           
-        }
+            naves = new List<Nave>();
+                }
         public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, bool correcto)
         {
             Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, correcto);
             preguntas.Add(p);
         }
-       
-          public void comprobarRespuesta(int distancia, int vida, int respuesta)
+
+        public void agregarNave(int vida, string nombre)
+        {
+            Nave n = new Nave(vida, nombre);
+            naves.Add(n);
+        }
+            static void comprobarRespuesta(int distancia, int vida, int respuesta)
             {
                 if (vida > 0)
                 {
@@ -43,6 +50,9 @@ namespace SpaceApp.clases
                     Console.WriteLine("Te quedaste sin vidas");
                 }
             }
-     }
-}
+        }
 
+
+
+    }
+}
