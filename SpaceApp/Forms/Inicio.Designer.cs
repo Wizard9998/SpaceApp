@@ -39,11 +39,14 @@ namespace SpaceApp
             // txtTitulo
             // 
             this.txtTitulo.AutoSize = true;
-            this.txtTitulo.Location = new System.Drawing.Point(179, 21);
+            this.txtTitulo.BackColor = System.Drawing.Color.Black;
+            this.txtTitulo.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtTitulo.ForeColor = System.Drawing.Color.White;
+            this.txtTitulo.Location = new System.Drawing.Point(159, 21);
             this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(60, 15);
+            this.txtTitulo.Size = new System.Drawing.Size(95, 29);
             this.txtTitulo.TabIndex = 0;
-            this.txtTitulo.Text = "SpaceApp";
+            this.txtTitulo.Text = "Spatium";
             this.txtTitulo.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnStart
