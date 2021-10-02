@@ -6,5 +6,11 @@ namespace SpaceApp.clases
 {
     class Mision
     {
+
+        byte etapa;
+        string descripcion;
+
+
+
     }
 }
