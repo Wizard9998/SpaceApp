@@ -6,5 +6,9 @@ namespace SpaceApp.clases
 {
     class Fachada
     {
+        List<Pregunta> preguntas = new List<Pregunta>(); 
+
+
+
     }
 }
