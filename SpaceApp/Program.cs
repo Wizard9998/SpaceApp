@@ -21,7 +21,24 @@ namespace SpaceApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormInicio(f));
+            FormInicio main = new FormInicio(f);
+            main.FormClosed += FromInicio_Closed; // agrega esto aquí
+            main.Show();
+            Application.Run();
+        }
 
+        private static void FromInicio_Closed(object sender, FormClosedEventArgs e)
+        {
+            ((Form)sender).FormClosed -= FromInicio_Closed;
+
+            if (Application.OpenForms.Count == 0)
+            {
+                Application.ExitThread();
+            }
+            else
+            {
+                Application.OpenForms[0].FormClosed += FromInicio_Closed;
+            }
         }
     }
 }
