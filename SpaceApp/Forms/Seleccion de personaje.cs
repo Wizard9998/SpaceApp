@@ -36,6 +36,13 @@ namespace SpaceApp.Forms
 
             fachada.agregarAstronauta(UnNombre, UnApellido, UnaEdad);
             dataGridViewPersonaje.Rows.Add(UnNombre,UnApellido,UnaEdad);
+            if (txtNombre.Text != " "){
+            txtNombre.Text = string.Empty;
+            txtApellido.Text = string.Empty;
+            txtEdad.Text = string.Empty;
+            }
+            
+
         }
 
         private void lblAstronautas_SelectedIndexChanged(object sender, EventArgs e)
