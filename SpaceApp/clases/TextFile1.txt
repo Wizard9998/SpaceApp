@@ -1,1 +1,17 @@
 ﻿Preguntas :
+PREGUNTAS DE MARTE:
+1.	¿Cuánto dura un día en Marte? 24,6h
+2.	¿Cuánto dura un año en Marte? 687 días terrestres
+3.	¿Cuántas lunas tiene? 2
+4.	¿Qué tipo de planeta es? Terrestre
+5.	¿Marte tiene volcanes? si
+6.	¿A cuanta distancia esta del sol? 1.5 unidades astronómicas
+7.	¿Cuánto tarda la luz solar llegar? 13 minutos
+8.	¿Cómo se llaman sus lunas? Fobos y Deimos
+9.	¿Tiene algún anillo? No
+10.	¿Hace cuanto se asentó en su diseño actual? 4.500 millones de años
+11.	¿Por qué lo vemos rojizo? Debido a su oxidación en las rocas
+12.	¿Entre cuanto varia su temperatura? 70GF a -225 GF
+13.	¿De qué está compuesto su núcleo? Hierro, níquel y azufre
+14.	¿Cuál son los componentes de la atmosfera? Dióxido de carbono, nitrógeno, argón
+15.	¿Cuánto es la gravedad superficial? 3,71 m / s 2

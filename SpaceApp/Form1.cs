@@ -16,6 +16,5 @@ namespace SpaceApp
         {
             InitializeComponent();
         }
-
     }
 }
