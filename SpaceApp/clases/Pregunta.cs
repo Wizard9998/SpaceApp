@@ -8,7 +8,11 @@ namespace SpaceApp.clases
     {
         string pregunta = " ";
         int puntaje = 0;
-        int id_pregunta;
+        private int id_pregunta;
+        bool respuesta;
+
+
+
 
     }
 }
