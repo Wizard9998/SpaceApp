@@ -4,15 +4,18 @@ using System.Text;
 
 namespace SpaceApp.clases
 {
-    class Nave
+    class Nave 
     {
         int vida;
         string nombre;
 
         public Nave(int vida, string nombre)
         {
-            this.vida = vida;
-            this.nombre = nombre;
+            vida = 100;
+            nombre = "Galileo";
         }
+
+        public int Vida { get => vida; set => vida = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
     }
 }

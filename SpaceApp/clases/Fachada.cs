@@ -9,7 +9,7 @@ namespace SpaceApp.clases
     {
         List<Pregunta> preguntas;
         List<Mision> misiones;
-
+        Nave nave = new Nave(vida, string nombre);
         public Fachada()
         {
             preguntas = new List<Pregunta>();
