@@ -10,9 +10,15 @@ namespace SpaceApp.Forms
 {
     public partial class Fase2 : Form
     {
+        
         public Fase2()
         {
             InitializeComponent();
+        }
+
+        private void Fase2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
