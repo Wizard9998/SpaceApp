@@ -9,8 +9,10 @@ namespace SpaceApp.clases
         int vida;
         string nombre;
 
-
-
-
+        public Nave(int vida, string nombre)
+        {
+            this.vida = vida;
+            this.nombre = nombre;
+        }
     }
 }
