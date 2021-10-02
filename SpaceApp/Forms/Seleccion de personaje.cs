@@ -48,8 +48,7 @@ namespace SpaceApp.Forms
         {
            
             PantallaCarga p = new PantallaCarga();
-            p.Show();
-            this.Close();
+            p.Show();           
 
 
         }
