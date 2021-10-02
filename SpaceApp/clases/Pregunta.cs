@@ -11,11 +11,10 @@ namespace SpaceApp.clases
         string respuesta = " ";
         int id_respuesta = 0; 
         int puntaje = 0;
-
         bool correcto = true;
-        
 
+      
 
-
+        //joijhkl
     }
 }
