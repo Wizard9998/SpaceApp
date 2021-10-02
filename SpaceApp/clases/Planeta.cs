@@ -6,5 +6,8 @@ namespace SpaceApp.clases
 {
     class Planeta
     {
+
+        string dato;
+
     }
 }

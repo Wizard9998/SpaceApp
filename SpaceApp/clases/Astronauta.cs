@@ -6,5 +6,8 @@ namespace SpaceApp.clases
 {
     class Astronauta
     {
+        string nombre;
+        string apellido;
+        int edad;
     }
 }

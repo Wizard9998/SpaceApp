@@ -6,5 +6,11 @@ namespace SpaceApp.clases
 {
     class Nave
     {
+        int vida;
+        string nombre;
+
+
+
+
     }
 }
