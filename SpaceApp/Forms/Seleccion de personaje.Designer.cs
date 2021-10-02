@@ -38,12 +38,13 @@ namespace SpaceApp.Forms
             this.txtEdad = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.lblAstronautas = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(316, 9);
+            this.label1.Location = new System.Drawing.Point(222, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 15);
             this.label1.TabIndex = 0;
@@ -52,15 +53,15 @@ namespace SpaceApp.Forms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 52);
+            this.label2.Location = new System.Drawing.Point(21, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 15);
+            this.label2.Size = new System.Drawing.Size(54, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre";
+            this.label2.Text = "Nombre:";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(45, 90);
+            this.txtNombre.Location = new System.Drawing.Point(81, 72);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(111, 23);
             this.txtNombre.TabIndex = 2;
@@ -68,38 +69,38 @@ namespace SpaceApp.Forms
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 143);
+            this.label3.Location = new System.Drawing.Point(21, 115);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 15);
+            this.label3.Size = new System.Drawing.Size(54, 15);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Apellido";
+            this.label3.Text = "Apellido:";
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(49, 198);
+            this.txtApellido.Location = new System.Drawing.Point(81, 112);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(100, 23);
+            this.txtApellido.Size = new System.Drawing.Size(111, 23);
             this.txtApellido.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(61, 256);
+            this.label4.Location = new System.Drawing.Point(39, 147);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 15);
+            this.label4.Size = new System.Drawing.Size(36, 15);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Edad";
+            this.label4.Text = "Edad:";
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(52, 300);
+            this.txtEdad.Location = new System.Drawing.Point(81, 147);
             this.txtEdad.Name = "txtEdad";
-            this.txtEdad.Size = new System.Drawing.Size(100, 23);
+            this.txtEdad.Size = new System.Drawing.Size(111, 23);
             this.txtEdad.TabIndex = 6;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(52, 384);
+            this.btnAceptar.Location = new System.Drawing.Point(12, 233);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 7;
@@ -111,17 +112,27 @@ namespace SpaceApp.Forms
             // 
             this.lblAstronautas.FormattingEnabled = true;
             this.lblAstronautas.ItemHeight = 15;
-            this.lblAstronautas.Location = new System.Drawing.Point(458, 130);
+            this.lblAstronautas.Location = new System.Drawing.Point(282, 72);
             this.lblAstronautas.Name = "lblAstronautas";
-            this.lblAstronautas.Size = new System.Drawing.Size(120, 94);
+            this.lblAstronautas.Size = new System.Drawing.Size(217, 214);
             this.lblAstronautas.TabIndex = 8;
             this.lblAstronautas.SelectedIndexChanged += new System.EventHandler(this.lblAstronautas_SelectedIndexChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(408, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Seleccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(556, 368);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblAstronautas);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtEdad);
@@ -151,5 +162,6 @@ namespace SpaceApp.Forms
         private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.ListBox lblAstronautas;
+        private System.Windows.Forms.Button button1;
     }
 }
