@@ -116,19 +116,23 @@ namespace SpaceApp.Forms
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(12, 323);
+            this.btnAceptar.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAceptar.Location = new System.Drawing.Point(12, 325);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(118, 31);
             this.btnAceptar.TabIndex = 7;
-            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.Text = "Confirmar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(455, 333);
+            this.button1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(426, 325);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(118, 31);
             this.button1.TabIndex = 9;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;

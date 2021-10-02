@@ -63,6 +63,16 @@ namespace SpaceApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boton_vacio {
+            get {
+                object obj = ResourceManager.GetObject("Boton vacio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Infinite_loop_space_gif {
             get {
                 object obj = ResourceManager.GetObject("Infinite_loop_space_gif", resourceCulture);
