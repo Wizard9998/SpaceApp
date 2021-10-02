@@ -12,10 +12,9 @@ namespace SpaceApp.clases
         int id_respuesta = 0; 
         int puntaje = 0;
 
-        bool correcto = true;
-        
+       bool correcto = true;
+         
 
-
-
+       
     }
 }
