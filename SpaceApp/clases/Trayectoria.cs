@@ -6,5 +6,6 @@ namespace SpaceApp.clases
 {
     class Trayectoria
     {
+        int distancia;
     }
 }
