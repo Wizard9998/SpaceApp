@@ -1,3 +1,4 @@
+using SpaceApp.clases;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,12 @@ namespace SpaceApp
         [STAThread]
         static void Main()
         {
+            Fachada f = new Fachada();
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormInicio());
+            Application.Run(new FormInicio(f));
+
         }
     }
 }

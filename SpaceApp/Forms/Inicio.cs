@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+using SpaceApp.clases;
+using SpaceApp.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +15,9 @@ namespace SpaceApp
 {
     public partial class FormInicio : Form
     {
-        public FormInicio()
+        private Fachada unaFachada;
+
+        public FormInicio(clases.Fachada f)
         {
             InitializeComponent();
         }
@@ -30,9 +35,8 @@ namespace SpaceApp
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            Form formulario = new Forms.Form2();
-            formulario.Show();
-            this.Hide();
+            Seleccion s = new Seleccion(unaFachada);
+            s.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
