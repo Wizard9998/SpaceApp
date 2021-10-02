@@ -27,9 +27,11 @@ namespace SpaceApp.Forms
         {
             
         }
-
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
+       
+      
+            private void btnAceptar_Click(object sender, EventArgs e)
+            {
+            try { 
             string UnNombre = txtNombre.Text;
             string UnApellido = txtApellido.Text;
             int UnaEdad = Convert.ToInt32(txtEdad.Text);
@@ -41,10 +43,15 @@ namespace SpaceApp.Forms
             txtApellido.Text = string.Empty;
             txtEdad.Text = string.Empty;
             }
-            
-
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("Ya ingresaste un astronautoa");
+            }
         }
-
+        
+     
+       
         private void lblAstronautas_SelectedIndexChanged(object sender, EventArgs e)
         {
 

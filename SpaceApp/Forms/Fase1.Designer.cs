@@ -29,7 +29,6 @@ namespace SpaceApp.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fase1));
             this.btnResp1 = new System.Windows.Forms.Button();
             this.btnResp2 = new System.Windows.Forms.Button();
             this.btnResp3 = new System.Windows.Forms.Button();
@@ -78,10 +77,12 @@ namespace SpaceApp.Forms
             // 
             // imgBox
             // 
-            this.imgBox.Image = ((System.Drawing.Image)(resources.GetObject("imgBox.Image")));
-            this.imgBox.Location = new System.Drawing.Point(326, 102);
+            this.imgBox.BackColor = System.Drawing.Color.Transparent;
+            this.imgBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox.Image = global::SpaceApp.Properties.Resources.PuntaNave;
+            this.imgBox.Location = new System.Drawing.Point(294, 68);
             this.imgBox.Name = "imgBox";
-            this.imgBox.Size = new System.Drawing.Size(125, 191);
+            this.imgBox.Size = new System.Drawing.Size(239, 191);
             this.imgBox.TabIndex = 4;
             this.imgBox.TabStop = false;
             // 

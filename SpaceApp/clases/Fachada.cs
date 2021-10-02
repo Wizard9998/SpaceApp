@@ -33,8 +33,6 @@ namespace SpaceApp.clases
             Pregunta preguntaActual = preguntas[indicePregunta];
 
             preguntas.RemoveAt(indicePregunta);
-
-
         }
 
 
