@@ -34,9 +34,6 @@ namespace SpaceApp.Forms
             string UnNombre = txtNombre.Text;
             string UnApellido = txtApellido.Text;
             int UnaEdad = Convert.ToInt32(txtEdad.Text);
-            lblAstronautas.Items.Add(UnNombre);
-            lblAstronautas.Items.Add(UnApellido);
-            lblAstronautas.Items.Add(UnaEdad);
 
             fachada.agregarAstronauta(UnNombre, UnApellido, UnaEdad);
 
@@ -52,8 +49,9 @@ namespace SpaceApp.Forms
            
             PantallaCarga p = new PantallaCarga();
             p.Show();
-            
-       
+            this.Close();
+
+
         }
     }
 }
