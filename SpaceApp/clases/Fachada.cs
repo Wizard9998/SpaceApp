@@ -19,10 +19,6 @@ namespace SpaceApp.clases
             preguntas = new List<Pregunta>();
             misiones = new List<Mision>();
             naves = new List<Nave>();
-
-            
-
-
         }
         public void random() { 
             Random generador = new Random();
@@ -48,18 +44,7 @@ namespace SpaceApp.clases
             {
                 Astronauta a = new Astronauta(nombre, apellido, edad);
                 astronautas.Add(a);
-
-
             }
-
-            public void comprobarRespuesta(int distancia, int vida, int respuesta)
-        {
-
-
-
-
-        }
-
 
         public void agregarNave(int vida, string nombre)
             {
@@ -67,7 +52,7 @@ namespace SpaceApp.clases
                 naves.Add(n);
             }
 
-            static void ComprobarRespuesta(int distancia, int vida, int respuesta)
+         static void ComprobarRespuesta(int distancia, int vida, int respuesta)
 
             {
                 if (vida > 0)
