@@ -17,7 +17,7 @@ namespace SpaceApp
     {
         private Fachada unaFachada;
 
-        public FormInicio(clases.Fachada f)
+        public FormInicio()
         {
             InitializeComponent();
         }

@@ -11,11 +11,11 @@ namespace SpaceApp.Forms
 {
     public partial class Seleccion : Form
     {
-        Fachada fachadas;
+       public Fachada fachada;
 
         public Seleccion(Fachada unaFachada)
         {
-            this.fachadas = unaFachada;
+            this.fachada = unaFachada;
             InitializeComponent();
         }
 
@@ -31,7 +31,7 @@ namespace SpaceApp.Forms
             string UnNombre = txtNombre.Text;
             string UnApellido = txtApellido.Text;
             int UnaEdad = Convert.ToInt32(txtEdad.Text);
-            fachadas.agregarAstronauta(UnNombre, UnApellido, UnaEdad);
+            fachada.agregarAstronauta(UnNombre,UnApellido,UnaEdad);
             lblAstronautas.Items.Add(UnNombre);
             lblAstronautas.Items.Add(UnApellido);
             lblAstronautas.Items.Add(UnaEdad);

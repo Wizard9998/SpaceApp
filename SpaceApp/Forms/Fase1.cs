@@ -14,5 +14,10 @@ namespace SpaceApp.Forms
         {
             InitializeComponent();
         }
+
+        private void btnResp1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
