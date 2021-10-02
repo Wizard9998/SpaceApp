@@ -13,9 +13,7 @@ namespace SpaceApp.clases
         int puntaje = 0;
         bool correcto = true;
 
-       
-
-
+      
 
         //joijhkl
     }
