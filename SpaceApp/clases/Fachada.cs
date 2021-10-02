@@ -16,12 +16,7 @@ namespace SpaceApp.clases
 
         }
 
-        public void agregarPregunta(string pregunrta, int id_pregunta, string respuesta, int id_respuesta , int puntaje)
-        {
-            Pregunta p = new Pregunta(pregunrta, id_pregunta, respuesta, id_respuesta, puntaje);
-            preguntas.Add(p);
-        }
-
+       
 
     }
 }
