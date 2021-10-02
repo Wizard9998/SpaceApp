@@ -22,7 +22,7 @@ namespace SpaceApp
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormInicio(f));
             FormInicio main = new FormInicio(f);
-            main.FormClosed += FromInicio_Closed; // agrega esto aquí
+            main.FormClosed += FromInicio_Closed;
             main.Show();
             Application.Run();
         }
