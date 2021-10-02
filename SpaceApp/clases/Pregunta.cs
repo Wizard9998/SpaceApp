@@ -26,13 +26,7 @@ namespace SpaceApp.clases
 
         }
 
-        public string Pregunta { get => pregunta; set => pregunta = value; }
-        public int Id_pregunta { get => id_pregunta; set => id_pregunta = value; }
-        public string Respuesta { get => respuesta; set => respuesta = value; }
-        public int Id_respuesta { get => id_respuesta; set => id_respuesta = value; }
-        public int Puntaje { get => puntaje; set => puntaje = value; }
-        public bool Correcto { get => correcto; set => correcto = value; }
-
+       
         public void pregunta1()
         {
             string pregunta = "¿Cuánto dura un día en Marte?";
