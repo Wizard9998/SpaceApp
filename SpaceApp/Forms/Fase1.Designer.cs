@@ -80,7 +80,7 @@ namespace SpaceApp.Forms
             this.imgBox.BackColor = System.Drawing.Color.Transparent;
             this.imgBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox.Image = global::SpaceApp.Properties.Resources.PuntaNave;
-            this.imgBox.Location = new System.Drawing.Point(294, 68);
+            this.imgBox.Location = new System.Drawing.Point(383, 101);
             this.imgBox.Name = "imgBox";
             this.imgBox.Size = new System.Drawing.Size(239, 191);
             this.imgBox.TabIndex = 4;
