@@ -38,8 +38,11 @@ namespace SpaceApp.Forms
             this.txtEdad = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dataGridViewPersonaje = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Edad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPersonaje)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -129,16 +132,34 @@ namespace SpaceApp.Forms
             this.button1.TabIndex = 9;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-           
             // 
-            // dataGridView1
+            // dataGridViewPersonaje
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(77, 135);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(398, 150);
-            this.dataGridView1.TabIndex = 10;
+            this.dataGridViewPersonaje.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewPersonaje.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Nombre,
+            this.Apellido,
+            this.Edad});
+            this.dataGridViewPersonaje.Location = new System.Drawing.Point(114, 150);
+            this.dataGridViewPersonaje.Name = "dataGridViewPersonaje";
+            this.dataGridViewPersonaje.RowTemplate.Height = 25;
+            this.dataGridViewPersonaje.Size = new System.Drawing.Size(344, 105);
+            this.dataGridViewPersonaje.TabIndex = 10;
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Apellido
+            // 
+            this.Apellido.HeaderText = "Apellido";
+            this.Apellido.Name = "Apellido";
+            // 
+            // Edad
+            // 
+            this.Edad.HeaderText = "Edad";
+            this.Edad.Name = "Edad";
             // 
             // Seleccion
             // 
@@ -146,7 +167,7 @@ namespace SpaceApp.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SpaceApp.Properties.Resources.Infinite_loop_space_gif;
             this.ClientSize = new System.Drawing.Size(556, 368);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridViewPersonaje);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtEdad);
@@ -160,7 +181,7 @@ namespace SpaceApp.Forms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Seleccion";
             this.Load += new System.EventHandler(this.Form2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPersonaje)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,6 +198,9 @@ namespace SpaceApp.Forms
         private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewPersonaje;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Apellido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Edad;
     }
 }

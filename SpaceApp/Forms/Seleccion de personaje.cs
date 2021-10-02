@@ -12,7 +12,6 @@ namespace SpaceApp.Forms
     public partial class Seleccion : Form
     {
         Fachada fachada;
-
         public Seleccion(Fachada unafachada)
 
         {
@@ -34,26 +33,14 @@ namespace SpaceApp.Forms
             string UnNombre = txtNombre.Text;
             string UnApellido = txtApellido.Text;
             int UnaEdad = Convert.ToInt32(txtEdad.Text);
-            lblAstronautas.Items.Add(UnNombre);
-            lblAstronautas.Items.Add(UnApellido);
-            lblAstronautas.Items.Add(UnaEdad);
 
             fachada.agregarAstronauta(UnNombre, UnApellido, UnaEdad);
-
+            dataGridViewPersonaje.Rows.Add(UnNombre,UnApellido,UnaEdad);
         }
 
         private void lblAstronautas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-            PantallaCarga p = new PantallaCarga();
-            p.Show();
-            
-       
         }
     }
 }
