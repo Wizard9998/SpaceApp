@@ -7,9 +7,6 @@ namespace SpaceApp.clases
     class Pregunta : Fachada
     {
 
-        
-
-
 
         Fachada fachada;
 
