@@ -17,14 +17,14 @@ namespace SpaceApp.clases
             misiones = new List<Mision>();
          
         }
-        public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, int puntaje, bool correcto)
+        public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, bool correcto)
         {
-            Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, puntaje, correcto);
+            Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, correcto);
             preguntas.Add(p);
         }
+        
 
 
-       
 
     }
 }
