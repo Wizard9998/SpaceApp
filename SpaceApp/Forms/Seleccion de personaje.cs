@@ -48,7 +48,7 @@ namespace SpaceApp.Forms
            
             PantallaCarga p = new PantallaCarga();
             p.Show();
-            this.Close(); //perra
+            this.Close(); 
 
         }
     }
