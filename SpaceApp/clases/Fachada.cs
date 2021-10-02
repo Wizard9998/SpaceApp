@@ -13,6 +13,8 @@ namespace SpaceApp.clases
         List<Mision> misiones;
         List<Astronauta> astronautas;
         List<Nave> naves;
+        List<Planeta> planetas;
+        
         public Fachada()
         {
            
@@ -20,7 +22,7 @@ namespace SpaceApp.clases
             preguntas = new List<Pregunta>();
             misiones = new List<Mision>();
             naves = new List<Nave>();
-
+            planetas = new List<Planeta>();
 
 
         }
@@ -33,6 +35,14 @@ namespace SpaceApp.clases
             Pregunta preguntaActual = preguntas[indicePregunta];
 
             preguntas.RemoveAt(indicePregunta);
+        }
+        public void DatoRandom()
+        {
+            Random rndt = new Random();
+            int indiceDato = rndt.Next(planetas.Count());
+            Planeta datoActual = planetas[indiceDato];
+            planetas.RemoveAt(indiceDato);
+
         }
 
 
@@ -53,6 +63,16 @@ namespace SpaceApp.clases
                 Nave n = new Nave(vida, nombre);
                 naves.Add(n);
             }
+
+        public void agregarPlaneta(string dato)
+        {
+
+            Planeta pla = new Planeta(dato);
+            planetas.Add(pla);
+
+
+        }
+
 
          static void ComprobarRespuesta(int distancia, int vida, int respuesta)
 

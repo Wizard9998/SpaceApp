@@ -14,5 +14,10 @@ namespace SpaceApp.Forms
         {
             InitializeComponent();
         }
+
+        private void PantallaCarga_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
