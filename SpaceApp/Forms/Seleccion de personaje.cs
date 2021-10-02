@@ -31,6 +31,7 @@ namespace SpaceApp.Forms
       
             private void btnAceptar_Click(object sender, EventArgs e)
             {
+            btnAceptar.Visible = false;
             try { 
             string UnNombre = txtNombre.Text;
             string UnApellido = txtApellido.Text;
