@@ -7,17 +7,15 @@ namespace SpaceApp.clases
 {
     class Fachada
     {
-        List<Pregunta> preguntas;
-        List<Mision> misiones;
-        List<Nave> naves;
+        List<Pregunta> preguntas = new List<Pregunta>();
+        List<Mision> misiones= new List<Mision>();
+        List<Nave> naves= new List<Nave>();
 
+       // static void recorer()
+      //  {
+      //      foreach (Pregunta pregunta in preguntas) { }
+       // }
 
-        public Fachada()
-        {
-            preguntas = new List<Pregunta>();
-            misiones = new List<Mision>();
-            naves = new List<Nave>();
-                }
         public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, bool correcto)
         {
             Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, correcto);
@@ -29,6 +27,7 @@ namespace SpaceApp.clases
             Nave n = new Nave(vida, nombre);
             naves.Add(n);
         }
+
             static void comprobarRespuesta(int distancia, int vida, int respuesta)
             {
                 if (vida > 0)

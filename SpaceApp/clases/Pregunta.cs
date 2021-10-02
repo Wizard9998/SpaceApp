@@ -6,6 +6,11 @@ namespace SpaceApp.clases
 {
     class Pregunta : Fachada
     {
+
+        
+
+
+
         Fachada fachada;
 
         string letra_pregunta = " ";
@@ -117,6 +122,6 @@ namespace SpaceApp.clases
             bool correcto = true;
             agregarPregunta("¿Cuánto es la gravedad superficial?", 15, "3,71 m / s 2", 15, correcto);
         }
-
+       
     }
 }
