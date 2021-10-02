@@ -56,5 +56,7 @@ namespace SpaceApp.clases
             agregarPregunta("¿Cuánto dura un año en Marte?", 2, "687 días terrestres", 2, correcto);
             agregarPregunta("¿Cuánto dura un día en Marte?", 1, "24,6h", 1, correcto);
         }
+
+
     }
 }

@@ -20,11 +20,24 @@ namespace SpaceApp.clases
             misiones = new List<Mision>();
             naves = new List<Nave>();
 
-            // static void recorer()
-            //  {
-            //      foreach (Pregunta pregunta in preguntas) { }
-            // }
+            
+
+
         }
+        public void random() { 
+            Random generador = new Random();
+            int[] preguntaAlt = new int[1];
+            for (int i= 0; i<1; i++){
+                preguntaAlt[i] = generador.Next();
+            }
+            for (int i = 0; i < 1; i++)
+            {
+              Console.WriteLine(preguntaAlt[i]);
+            }
+            Console.ReadKey();
+            }
+
+
             public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, bool correcto)
             {
                 Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, correcto);
