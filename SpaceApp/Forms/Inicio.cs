@@ -15,9 +15,11 @@ namespace SpaceApp
 {
     public partial class FormInicio : Form
     {
+        Fachada fachada;
+        public FormInicio(Fachada unafachada)
 
-        public FormInicio()
-        {      
+        {
+            this.fachada = unafachada;
             InitializeComponent();
         }
 
@@ -33,8 +35,8 @@ namespace SpaceApp
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            Seleccion s = new Seleccion();
-            s.Show();                    
+            Seleccion s = new Seleccion(fachada);
+            s.Show();this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

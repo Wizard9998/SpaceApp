@@ -20,7 +20,7 @@ namespace SpaceApp
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormInicio());
+            Application.Run(new FormInicio(f));
 
         }
     }
