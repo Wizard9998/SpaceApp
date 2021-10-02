@@ -21,22 +21,21 @@ namespace SpaceApp.clases
             misiones = new List<Mision>();
             naves = new List<Nave>();
 
-            
 
 
         }
-        public void random() { 
-            Random generador = new Random();
-            int[] preguntaAlt = new int[1];
-            for (int i= 0; i<1; i++){
-                preguntaAlt[i] = generador.Next();
-            }
-            for (int i = 0; i < 1; i++)
-            {
-              Console.WriteLine(preguntaAlt[i]);
-            }
-            Console.ReadKey();
-            }
+
+        public void preguntaRandom()
+        {
+            Random rnd = new Random();
+            int indicePregunta = rnd.Next(preguntas.Count());
+
+            Pregunta preguntaActual = preguntas[indicePregunta];
+
+            preguntas.RemoveAt(indicePregunta);
+
+
+        }
 
 
         public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, bool correcto)
