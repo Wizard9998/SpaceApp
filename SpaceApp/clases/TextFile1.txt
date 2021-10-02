@@ -15,4 +15,3 @@ PREGUNTAS DE MARTE:
 13.	¿De qué está compuesto su núcleo? Hierro, níquel y azufre
 14.	¿Cuál son los componentes de la atmosfera? Dióxido de carbono, nitrógeno, argón
 15.	¿Cuánto es la gravedad superficial? 3,71 m / s 2
-//
