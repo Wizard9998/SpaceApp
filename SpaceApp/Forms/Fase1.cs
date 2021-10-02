@@ -8,21 +8,11 @@ using System.Windows.Forms;
 
 namespace SpaceApp.Forms
 {
-    public partial class Preguntas : Form
+    public partial class Fase1 : Form
     {
-        public Preguntas()
+        public Fase1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
