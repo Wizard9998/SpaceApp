@@ -17,14 +17,11 @@ namespace SpaceApp.clases
         
         public Fachada()
         {
-           
             astronautas = new List<Astronauta>();
             preguntas = new List<Pregunta>();
             misiones = new List<Mision>();
             naves = new List<Nave>();
             planetas = new List<Planeta>();
-
-
         }
 
         public void preguntaRandom()
@@ -45,7 +42,14 @@ namespace SpaceApp.clases
 
         }
 
+        public void agregarMision(string descripcion,byte etapa)
+        {
 
+            Mision m = new Mision(descripcion,etapa);
+            misiones.Add(m);
+
+
+        }
         public void agregarPregunta(string pregunta, int id_pregunta, string respuesta, int id_respuesta, bool correcto)
             {
                 Pregunta p = new Pregunta(pregunta, id_pregunta, respuesta, id_respuesta, correcto);
