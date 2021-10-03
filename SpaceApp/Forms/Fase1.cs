@@ -23,9 +23,8 @@ namespace SpaceApp.Forms
             else MessageBox.Show("Respuesta incorrecta la respuesta correcta es " + rdbRespuesta1.Text);
         }
     }
+
         
        
-    }
-
-}
+    
 
