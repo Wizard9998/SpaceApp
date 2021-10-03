@@ -24,14 +24,17 @@ namespace SpaceApp.clases
             planetas = new List<Planeta>();
         }
 
-        public void preguntaRandom()
+        public int preguntaRandom()
+
         {
+            int indicePregunta = -1;
             Random rnd = new Random();
-            int indicePregunta = rnd.Next(preguntas.Count());
+            indicePregunta = rnd.Next(preguntas.Count());
 
             Pregunta preguntaActual = preguntas[indicePregunta];
-
+            return indicePregunta;
             preguntas.RemoveAt(indicePregunta);
+
         }
         public void DatoRandom()
         {
