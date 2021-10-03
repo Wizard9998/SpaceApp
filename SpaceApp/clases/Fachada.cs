@@ -24,27 +24,7 @@ namespace SpaceApp.clases
             planetas = new List<Planeta>();
         }
 
-        public int preguntaRandom()
-
-        {
-            int indicePregunta = -1;
-            Random rnd = new Random();
-            indicePregunta = rnd.Next(preguntas.Count());
-
-            Pregunta preguntaActual = preguntas[indicePregunta];
-            return indicePregunta;
-            preguntas.RemoveAt(indicePregunta);
-
-        }
-        public void DatoRandom()
-        {
-            Random rndt = new Random();
-            int indiceDato = rndt.Next(planetas.Count());
-            Planeta datoActual = planetas[indiceDato];
-            planetas.RemoveAt(indiceDato);
-
-        }
-
+ 
         public void agregarMision(string descripcion,byte etapa)
         {
 
