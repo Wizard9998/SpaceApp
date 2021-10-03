@@ -14,5 +14,10 @@ namespace SpaceApp.Espacio
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
