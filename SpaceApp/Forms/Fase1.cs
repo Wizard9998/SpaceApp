@@ -13,6 +13,7 @@ namespace SpaceApp.Forms
     {
         Fachada fachada;
         bool respuesta = false;
+        int a = 0;
         public Fase1(Fachada unafachada)
 
         {
@@ -44,27 +45,49 @@ namespace SpaceApp.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
 
-                if (rdbRespuesta1.Checked == true)
-                {
-                    respuesta = true;
-
-                }
-                if (rdbRespuesta2.Checked == true)
-                {
-                    respuesta = false;
-
-                }
-                if (rdbRespuesta3.Checked == true)
-                {
-                    respuesta = false;
-                }
-                if (rdbRespuesta4.Checked == true)
-                {
-                    respuesta = false;
-
-                }
+            if (rdbRespuesta1.Checked == true)
+            {
+                respuesta = true;
+                pictureBox2.Visible = true;
+                rdbRespuesta1.Checked = false;
+                
             }
+            else MessageBox.Show("Respuesta incorrecta la respuesta correcta es " + rdbRespuesta1.Text);
+
+            switch (a=1) {
+
+
+            case 1:
+                   
+                    lbPregunta.Text = ("¿Cuál fue la primera nave espacial?");
+                    rdbRespuesta1.Text = ("Apollo 1");
+                    rdbRespuesta2.Text = ("Vostok 1");
+                    rdbRespuesta3.Text = ("Discovery");
+                    rdbRespuesta4.Text = ("Axioma");
+                    
+                    
+
+                    break;
+                case 2:
+                    if (rdbRespuesta2.Checked == true)
+                    {
+                        respuesta = true;
+                        pictureBox3.Visible = true;
+                        rdbRespuesta2.Checked = false;
+
+                        lbPregunta.Text = ("¿Cuál fue la nave espacial que llego a la luna?");
+                        rdbRespuesta1.Text = ("Apollo 9");
+                        rdbRespuesta2.Text = ("Vostok 1");
+                        rdbRespuesta3.Text = ("Discovery");
+                        rdbRespuesta4.Text = ("Apollo 11");
+                    }
+                    else MessageBox.Show("Respuesta incorrecta la respuesta correcta es " + rdbRespuesta2.Text);
+
+                    break;
+            
+            }
+
+        }
     }
 }

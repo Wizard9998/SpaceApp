@@ -67,6 +67,7 @@ namespace SpaceApp.Forms
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // pictureBox3
             // 
@@ -78,6 +79,7 @@ namespace SpaceApp.Forms
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
             // 
             // pictureBox2
             // 
@@ -90,6 +92,7 @@ namespace SpaceApp.Forms
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // rdbRespuesta1
             // 
@@ -102,7 +105,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta1.Name = "rdbRespuesta1";
             this.rdbRespuesta1.Size = new System.Drawing.Size(117, 19);
             this.rdbRespuesta1.TabIndex = 10;
-            this.rdbRespuesta1.TabStop = true;
             this.rdbRespuesta1.Text = "Motor Hipotetico";
             this.rdbRespuesta1.UseVisualStyleBackColor = false;
             this.rdbRespuesta1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
@@ -117,7 +119,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta2.Name = "rdbRespuesta2";
             this.rdbRespuesta2.Size = new System.Drawing.Size(106, 19);
             this.rdbRespuesta2.TabIndex = 11;
-            this.rdbRespuesta2.TabStop = true;
             this.rdbRespuesta2.Text = "Motor Electrico";
             this.rdbRespuesta2.UseVisualStyleBackColor = false;
             // 
@@ -131,7 +132,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta3.Name = "rdbRespuesta3";
             this.rdbRespuesta3.Size = new System.Drawing.Size(101, 19);
             this.rdbRespuesta3.TabIndex = 12;
-            this.rdbRespuesta3.TabStop = true;
             this.rdbRespuesta3.Text = "Motor Hibrido";
             this.rdbRespuesta3.UseVisualStyleBackColor = false;
             // 
@@ -145,7 +145,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta4.Name = "rdbRespuesta4";
             this.rdbRespuesta4.Size = new System.Drawing.Size(112, 19);
             this.rdbRespuesta4.TabIndex = 13;
-            this.rdbRespuesta4.TabStop = true;
             this.rdbRespuesta4.Text = "Motor de Fusion";
             this.rdbRespuesta4.UseVisualStyleBackColor = false;
             // 

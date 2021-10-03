@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpaceApp.clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +11,7 @@ namespace SpaceApp.Forms
 {
     public partial class PantallaCarga : Form
     {
+        Fachada fachada;
         public PantallaCarga()
         {
             InitializeComponent();
@@ -18,6 +20,13 @@ namespace SpaceApp.Forms
         private void PantallaCarga_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Fase1 f = new Fase1(fachada);
+            f.Show();
+            this.Close();
         }
     }
 }
