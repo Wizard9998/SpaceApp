@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpaceApp.clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,14 +11,24 @@ namespace SpaceApp.Forms
 {
     public partial class Fase1 : Form
     {
-        public Fase1()
+        Fachada fachada;
+        public Fase1(Fachada unafachada)
+
         {
+
+            this.fachada = unafachada;
             InitializeComponent();
         }
 
         private void btnResp1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Fase1_Load(object sender, EventArgs e)
+        {
+            int indice = -1;
+            fachada.preguntaRandom();
         }
 
         private void Fase1_Load(object sender, EventArgs e)
