@@ -30,5 +30,15 @@ namespace SpaceApp.Forms
             int indice = -1;
 
         }
+
+        private void Fase1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

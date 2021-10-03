@@ -91,26 +91,32 @@ namespace SpaceApp.Forms
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(65, 193);
+            this.radioButton1.Location = new System.Drawing.Point(54, 159);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(94, 19);
             this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(76, 334);
+            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton2.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.radioButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButton2.Location = new System.Drawing.Point(54, 291);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(94, 19);
             this.radioButton2.TabIndex = 11;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.UseVisualStyleBackColor = false;
             // 
             // Fase1
             // 
@@ -127,6 +133,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.pictureBox2);
             this.Name = "Fase1";
             this.Text = "Fase1";
+            this.Load += new System.EventHandler(this.Fase1_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
