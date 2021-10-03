@@ -19,5 +19,10 @@ namespace SpaceApp.Forms
         {
 
         }
+
+        private void Fase1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
