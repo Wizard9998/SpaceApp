@@ -73,6 +73,16 @@ namespace SpaceApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Austronauta_fondo {
+            get {
+                object obj = ResourceManager.GetObject("Austronauta fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Boton_vacio {
             get {
                 object obj = ResourceManager.GetObject("Boton vacio", resourceCulture);
@@ -176,6 +186,16 @@ namespace SpaceApp.Properties {
         internal static System.Drawing.Bitmap start2 {
             get {
                 object obj = ResourceManager.GetObject("start2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TITULO2 {
+            get {
+                object obj = ResourceManager.GetObject("TITULO2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

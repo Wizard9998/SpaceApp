@@ -19,7 +19,7 @@ namespace SpaceApp.Forms
 
         private void PantallaCarga_Load(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,6 +27,12 @@ namespace SpaceApp.Forms
             Fase1 f = new Fase1();
             f.Show();
             this.Close();
+        }
+
+        private void lblDato_Click(object sender, EventArgs e)
+        {
+      
+
         }
     }
 }
