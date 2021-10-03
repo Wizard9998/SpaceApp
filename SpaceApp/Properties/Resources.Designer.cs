@@ -73,6 +73,16 @@ namespace SpaceApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_com_gif_maker__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ezgif_com_gif_maker__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Infinite_loop_space_gif {
             get {
                 object obj = ResourceManager.GetObject("Infinite_loop_space_gif", resourceCulture);
@@ -83,9 +93,39 @@ namespace SpaceApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PuntaNave {
+        internal static System.Drawing.Bitmap marte {
             get {
-                object obj = ResourceManager.GetObject("PuntaNave", resourceCulture);
+                object obj = ResourceManager.GetObject("marte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ParteCola {
+            get {
+                object obj = ResourceManager.GetObject("ParteCola", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ParteFlama {
+            get {
+                object obj = ResourceManager.GetObject("ParteFlama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PartePunta {
+            get {
+                object obj = ResourceManager.GetObject("PartePunta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -34,10 +34,8 @@ namespace SpaceApp.Forms
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnResp4 = new System.Windows.Forms.Button();
-            this.btnResp3 = new System.Windows.Forms.Button();
-            this.btnResp2 = new System.Windows.Forms.Button();
-            this.btnResp1 = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -90,50 +88,29 @@ namespace SpaceApp.Forms
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
-            // btnResp4
+            // radioButton1
             // 
-            this.btnResp4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnResp4.BackgroundImage")));
-            this.btnResp4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnResp4.Location = new System.Drawing.Point(186, 257);
-            this.btnResp4.Name = "btnResp4";
-            this.btnResp4.Size = new System.Drawing.Size(144, 44);
-            this.btnResp4.TabIndex = 3;
-            this.btnResp4.Text = "button4";
-            this.btnResp4.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.radioButton1.ForeColor = System.Drawing.Color.Black;
+            this.radioButton1.Location = new System.Drawing.Point(65, 193);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(94, 19);
+            this.radioButton1.TabIndex = 10;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // btnResp3
+            // radioButton2
             // 
-            this.btnResp3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnResp3.BackgroundImage")));
-            this.btnResp3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnResp3.Location = new System.Drawing.Point(23, 257);
-            this.btnResp3.Name = "btnResp3";
-            this.btnResp3.Size = new System.Drawing.Size(144, 44);
-            this.btnResp3.TabIndex = 2;
-            this.btnResp3.Text = "button3";
-            this.btnResp3.UseVisualStyleBackColor = true;
-            // 
-            // btnResp2
-            // 
-            this.btnResp2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnResp2.BackgroundImage")));
-            this.btnResp2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnResp2.Location = new System.Drawing.Point(186, 165);
-            this.btnResp2.Name = "btnResp2";
-            this.btnResp2.Size = new System.Drawing.Size(144, 44);
-            this.btnResp2.TabIndex = 1;
-            this.btnResp2.Text = "button2";
-            this.btnResp2.UseVisualStyleBackColor = true;
-            // 
-            // btnResp1
-            // 
-            this.btnResp1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnResp1.BackgroundImage")));
-            this.btnResp1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnResp1.Location = new System.Drawing.Point(23, 165);
-            this.btnResp1.Name = "btnResp1";
-            this.btnResp1.Size = new System.Drawing.Size(144, 44);
-            this.btnResp1.TabIndex = 0;
-            this.btnResp1.Text = "button1";
-            this.btnResp1.UseVisualStyleBackColor = true;
-            this.btnResp1.Click += new System.EventHandler(this.btnResp1_Click);
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(76, 334);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(94, 19);
+            this.radioButton2.TabIndex = 11;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // Fase1
             // 
@@ -142,13 +119,11 @@ namespace SpaceApp.Forms
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(803, 450);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbPregunta);
-            this.Controls.Add(this.btnResp4);
-            this.Controls.Add(this.btnResp3);
-            this.Controls.Add(this.btnResp2);
-            this.Controls.Add(this.btnResp1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "Fase1";
             this.Text = "Fase1";
@@ -165,9 +140,7 @@ namespace SpaceApp.Forms
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btnResp4;
-        private System.Windows.Forms.Button btnResp3;
-        private System.Windows.Forms.Button btnResp2;
-        private System.Windows.Forms.Button btnResp1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
