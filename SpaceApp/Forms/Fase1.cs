@@ -11,7 +11,7 @@ namespace SpaceApp.Forms
 
         {
             InitializeComponent();
-        }//gh
+        }
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
