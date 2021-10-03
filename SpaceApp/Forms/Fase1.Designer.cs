@@ -36,6 +36,8 @@ namespace SpaceApp.Forms
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -118,6 +120,34 @@ namespace SpaceApp.Forms
             this.radioButton2.Text = "radioButton2";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton3.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.radioButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButton3.Location = new System.Drawing.Point(186, 159);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(94, 19);
+            this.radioButton3.TabIndex = 12;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = false;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton4.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.radioButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButton4.Location = new System.Drawing.Point(186, 291);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(94, 19);
+            this.radioButton4.TabIndex = 13;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = false;
+            // 
             // Fase1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -125,6 +155,8 @@ namespace SpaceApp.Forms
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(803, 450);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.pictureBox3);
@@ -149,5 +181,7 @@ namespace SpaceApp.Forms
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
     }
 }
