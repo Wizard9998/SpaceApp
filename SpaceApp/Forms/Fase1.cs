@@ -28,11 +28,6 @@ namespace SpaceApp.Forms
         private void Fase1_Load(object sender, EventArgs e)
         {
             int indice = -1;
-            fachada.preguntaRandom();
-        }
-
-        private void Fase1_Load(object sender, EventArgs e)
-        {
 
         }
     }
