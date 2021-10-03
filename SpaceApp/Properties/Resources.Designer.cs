@@ -83,6 +83,16 @@ namespace SpaceApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_com_gif_maker__3_ {
+            get {
+                object obj = ResourceManager.GetObject("ezgif_com_gif_maker__3_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Infinite_loop_space_gif {
             get {
                 object obj = ResourceManager.GetObject("Infinite_loop_space_gif", resourceCulture);
