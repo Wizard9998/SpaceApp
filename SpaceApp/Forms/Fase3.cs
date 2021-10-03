@@ -26,7 +26,8 @@ namespace SpaceApp.Forms
             {
                 pictureBox1.Visible = (true);
                 MessageBox.Show("Perfecto , haz acertado la respuesta");
-                
+                Espacio.espacio1 esp = new Espacio.espacio1();
+                esp.Show();
                 this.Close();
             }
             else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
