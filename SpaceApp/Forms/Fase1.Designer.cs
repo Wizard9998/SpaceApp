@@ -104,7 +104,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta1.Name = "rdbRespuesta1";
             this.rdbRespuesta1.Size = new System.Drawing.Size(161, 30);
             this.rdbRespuesta1.TabIndex = 10;
-            this.rdbRespuesta1.TabStop = true;
             this.rdbRespuesta1.Text = "El Falcon Heavy";
             this.rdbRespuesta1.UseVisualStyleBackColor = false;
             // 
@@ -118,7 +117,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta2.Name = "rdbRespuesta2";
             this.rdbRespuesta2.Size = new System.Drawing.Size(98, 30);
             this.rdbRespuesta2.TabIndex = 11;
-            this.rdbRespuesta2.TabStop = true;
             this.rdbRespuesta2.Text = "Atlantis";
             this.rdbRespuesta2.UseVisualStyleBackColor = false;
             // 
@@ -132,7 +130,6 @@ namespace SpaceApp.Forms
             this.rdbRespuesta3.Name = "rdbRespuesta3";
             this.rdbRespuesta3.Size = new System.Drawing.Size(109, 30);
             this.rdbRespuesta3.TabIndex = 12;
-            this.rdbRespuesta3.TabStop = true;
             this.rdbRespuesta3.Text = "Astrobee";
             this.rdbRespuesta3.UseVisualStyleBackColor = false;
             // 
@@ -146,14 +143,13 @@ namespace SpaceApp.Forms
             this.rdbRespuesta4.Name = "rdbRespuesta4";
             this.rdbRespuesta4.Size = new System.Drawing.Size(90, 30);
             this.rdbRespuesta4.TabIndex = 13;
-            this.rdbRespuesta4.TabStop = true;
             this.rdbRespuesta4.Text = "Atlas V";
             this.rdbRespuesta4.UseVisualStyleBackColor = false;
             // 
             // btnResponder
             // 
             this.btnResponder.BackColor = System.Drawing.Color.Transparent;
-            this.btnResponder.Location = new System.Drawing.Point(69, 232);
+            this.btnResponder.Location = new System.Drawing.Point(90, 230);
             this.btnResponder.Name = "btnResponder";
             this.btnResponder.Size = new System.Drawing.Size(75, 23);
             this.btnResponder.TabIndex = 14;
@@ -192,6 +188,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.pictureBox2);
             this.Name = "Fase1";
             this.Text = "Fase1";
+            this.Load += new System.EventHandler(this.Fase1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
