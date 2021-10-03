@@ -18,7 +18,20 @@ namespace SpaceApp.Forms
 
         private void Fase2_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                pictureBox3.Visible = (true);
+                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                Fase3 f = new Fase3();
+                f.Show();
+                this.Close();
+            }
+            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
         }
     }
 }
