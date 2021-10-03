@@ -11,7 +11,7 @@ namespace SpaceApp.Forms
 
         {
             InitializeComponent();
-        }//gh
+        }
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
@@ -23,8 +23,9 @@ namespace SpaceApp.Forms
             else MessageBox.Show("Respuesta incorrecta la respuesta correcta es " + rdbRespuesta1.Text);
         }
     }
-
         
        
-    
+    }
+
+}
 
