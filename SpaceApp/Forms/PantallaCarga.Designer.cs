@@ -36,7 +36,7 @@ namespace SpaceApp.Forms
             // lblDato
             // 
             this.lblDato.AutoSize = true;
-            this.lblDato.Location = new System.Drawing.Point(368, 326);
+            this.lblDato.Location = new System.Drawing.Point(346, 117);
             this.lblDato.Name = "lblDato";
             this.lblDato.Size = new System.Drawing.Size(38, 15);
             this.lblDato.TabIndex = 0;
@@ -44,7 +44,7 @@ namespace SpaceApp.Forms
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(315, 170);
+            this.button1.Location = new System.Drawing.Point(331, 381);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -56,10 +56,13 @@ namespace SpaceApp.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::SpaceApp.Properties.Resources.Austronauta;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(444, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblDato);
             this.Name = "PantallaCarga";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PantallaCarga";
             this.Load += new System.EventHandler(this.PantallaCarga_Load);
             this.ResumeLayout(false);
