@@ -13,7 +13,7 @@ namespace SpaceApp.Forms
 
         {
             InitializeComponent();
-        }
+        }//z
         private void askQuestion(int correcto)
         {
             
