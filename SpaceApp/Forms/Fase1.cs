@@ -6,21 +6,45 @@ namespace SpaceApp.Forms
     public partial class Fase1 : Form
     {
         bool respuesta = false;
+        int a = 0;
 
+        int correcto=-1 ;
         public Fase1()
 
         {
             InitializeComponent();
         }
+        private void askQuestion(int correcto)
+        {
+            
+            if (correcto == 1)
+            {          
+                lbPregunta.Text = "Nueva pregunta";
+                correcto = +1;
+            }
+            if (correcto == 2)
+            {
+                lbPregunta.Text = "pregunta 2";
+                correcto = +1;
+            }
+        }       
+                
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
+
             if (rdbRespuesta1.Checked == true)
             {
-                respuesta = true;
-                pictureBox2.Visible = true;
+                correcto = 1;
+                askQuestion(correcto);
             }
-            else MessageBox.Show("Respuesta incorrecta la respuesta correcta es " + rdbRespuesta1.Text);
+
+            if(correcto ==2) 
+            {
+                if(rdbRespuesta2.Checked == true) {
+                    askQuestion(correcto);
+                }
+            }
         }
     }
 }
