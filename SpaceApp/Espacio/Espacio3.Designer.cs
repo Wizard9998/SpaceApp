@@ -143,7 +143,7 @@ namespace SpaceApp.Espacio
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Name = "Espacio3";
-            this.Text = "Espacio3";
+            this.Text = "DEMO";
             this.Load += new System.EventHandler(this.Espacio3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -148,7 +148,7 @@ namespace SpaceApp.Espacio
             this.Controls.Add(this.rdbRespuestaEspacio2);
             this.Controls.Add(this.rdbRespuestaEspacio1);
             this.Name = "espacio1";
-            this.Text = "espacio1";
+            this.Text = "DEMO";
             this.Load += new System.EventHandler(this.espacio1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

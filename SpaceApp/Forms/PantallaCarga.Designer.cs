@@ -111,7 +111,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.lblDato);
             this.Name = "PantallaCarga";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PantallaCarga";
+            this.Text = "Pantalla Carga(DEMO)";
             this.Load += new System.EventHandler(this.PantallaCarga_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

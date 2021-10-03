@@ -177,7 +177,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Fase3";
-            this.Text = "Fase3";
+            this.Text = "DEMO";
             this.Load += new System.EventHandler(this.Fase3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

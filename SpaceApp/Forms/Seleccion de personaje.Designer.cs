@@ -184,7 +184,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.label1);
             this.Name = "Seleccion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Seleccion";
+            this.Text = "DEMO";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPersonaje)).EndInit();
             this.ResumeLayout(false);
