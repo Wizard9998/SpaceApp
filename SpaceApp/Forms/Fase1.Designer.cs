@@ -149,9 +149,11 @@ namespace SpaceApp.Forms
             // btnResponder
             // 
             this.btnResponder.BackColor = System.Drawing.Color.Transparent;
-            this.btnResponder.Location = new System.Drawing.Point(90, 230);
+            this.btnResponder.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.btnResponder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnResponder.Location = new System.Drawing.Point(77, 275);
             this.btnResponder.Name = "btnResponder";
-            this.btnResponder.Size = new System.Drawing.Size(75, 23);
+            this.btnResponder.Size = new System.Drawing.Size(108, 34);
             this.btnResponder.TabIndex = 14;
             this.btnResponder.Text = "Confirmar";
             this.btnResponder.UseVisualStyleBackColor = false;

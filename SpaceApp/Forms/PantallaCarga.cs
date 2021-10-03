@@ -24,15 +24,26 @@ namespace SpaceApp.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Fase1 f = new Fase1();
-            f.Show();
-            this.Close();
+          
         }
 
         private void lblDato_Click(object sender, EventArgs e)
         {
       
 
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Fase1 f = new Fase1();
+            f.Show();
+            this.Close();
+        }
+
+        private void btnNoAcepto_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Para la proxima entoces :D");
+            this.Close();
         }
     }
 }

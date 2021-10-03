@@ -58,9 +58,11 @@ namespace SpaceApp.Forms
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(79, 233);
+            this.button1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(74, 275);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(108, 34);
             this.button1.TabIndex = 5;
             this.button1.Text = "Confirmar";
             this.button1.UseVisualStyleBackColor = true;

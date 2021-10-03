@@ -58,14 +58,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblDato.Text" xml:space="preserve">
-    <value>Misión: Eres el astronauta elegido por la Nasa para la misión
+    <value>Misión: Eres el astronauta elegido por la Nasa
+ para la misión
  más importante de nuestro planeta, 
-colonizar el universo, explorando y colonizando cada planeta 
+colonizar el universo, explorando y 
+colonizando cada planeta 
 de él.
 En esta instancia es llegar a Marte.
-La misión es verdaderamente complicada, pues tendrás que
- construir tu propia nave para poder aventurarte en el espacio 
-y determinaremos cuánto sabes y si serás capaz de cumplir esta
+La misión es verdaderamente complicada,
+ pues tendrás que
+ construir tu propia nave para poder
+ aventurarte en el espacio 
+y determinaremos cuánto sabes y si serás 
+capaz de cumplir esta
  misión tan importante .
 ¿Crees que puedas hacerlo?.</value>
   </data>
