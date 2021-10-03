@@ -75,6 +75,8 @@ namespace SpaceApp.Forms
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAceptar.Location = new System.Drawing.Point(507, 317);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
@@ -85,6 +87,8 @@ namespace SpaceApp.Forms
             // 
             // btnNoAcepto
             // 
+            this.btnNoAcepto.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.btnNoAcepto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNoAcepto.Location = new System.Drawing.Point(405, 317);
             this.btnNoAcepto.Name = "btnNoAcepto";
             this.btnNoAcepto.Size = new System.Drawing.Size(75, 23);
