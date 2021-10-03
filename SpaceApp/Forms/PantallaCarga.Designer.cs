@@ -36,7 +36,7 @@ namespace SpaceApp.Forms
             // lblDato
             // 
             this.lblDato.AutoSize = true;
-            this.lblDato.Location = new System.Drawing.Point(368, 326);
+            this.lblDato.Location = new System.Drawing.Point(348, 18);
             this.lblDato.Name = "lblDato";
             this.lblDato.Size = new System.Drawing.Size(38, 15);
             this.lblDato.TabIndex = 0;
@@ -44,7 +44,7 @@ namespace SpaceApp.Forms
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(315, 170);
+            this.button1.Location = new System.Drawing.Point(598, 388);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
