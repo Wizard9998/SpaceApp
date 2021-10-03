@@ -34,5 +34,19 @@ namespace SpaceApp.Espacio
         {
 
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            if (rdbRespuestaEspacio1.Checked == true)
+            {
+
+                pictureBox1.Location = new Point(200,100);
+                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                Espacio2 es = new Espacio2();
+                es.Show();
+                this.Close();
+            }
+            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+        }
     }
 }

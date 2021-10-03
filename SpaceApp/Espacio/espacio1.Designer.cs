@@ -29,85 +29,72 @@ namespace SpaceApp.Espacio
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rdbRespuestaEspacio1 = new System.Windows.Forms.RadioButton();
+            this.rdbRespuestaEspacio2 = new System.Windows.Forms.RadioButton();
+            this.rdbRespuestaEspacio3 = new System.Windows.Forms.RadioButton();
+            this.rdbRespuestaEspacio4 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox2
+            // rdbRespuestaEspacio1
             // 
-            this.pictureBox2.Image = global::SpaceApp.Properties.Resources.ezgif_com_gif_maker__3_;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 117);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(203, 83);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.rdbRespuestaEspacio1.AutoSize = true;
+            this.rdbRespuestaEspacio1.BackColor = System.Drawing.Color.Transparent;
+            this.rdbRespuestaEspacio1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rdbRespuestaEspacio1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.rdbRespuestaEspacio1.ForeColor = System.Drawing.Color.White;
+            this.rdbRespuestaEspacio1.Location = new System.Drawing.Point(45, 245);
+            this.rdbRespuestaEspacio1.Name = "rdbRespuestaEspacio1";
+            this.rdbRespuestaEspacio1.Size = new System.Drawing.Size(76, 30);
+            this.rdbRespuestaEspacio1.TabIndex = 10;
+            this.rdbRespuestaEspacio1.Text = "24,6h";
+            this.rdbRespuestaEspacio1.UseVisualStyleBackColor = false;
             // 
-            // radioButton1
+            // rdbRespuestaEspacio2
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButton1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(45, 245);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(76, 30);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "24,6h";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.rdbRespuestaEspacio2.AutoSize = true;
+            this.rdbRespuestaEspacio2.BackColor = System.Drawing.Color.Transparent;
+            this.rdbRespuestaEspacio2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rdbRespuestaEspacio2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.rdbRespuestaEspacio2.ForeColor = System.Drawing.Color.White;
+            this.rdbRespuestaEspacio2.Location = new System.Drawing.Point(45, 302);
+            this.rdbRespuestaEspacio2.Name = "rdbRespuestaEspacio2";
+            this.rdbRespuestaEspacio2.Size = new System.Drawing.Size(60, 30);
+            this.rdbRespuestaEspacio2.TabIndex = 3;
+            this.rdbRespuestaEspacio2.Text = "24h";
+            this.rdbRespuestaEspacio2.UseVisualStyleBackColor = false;
             // 
-            // radioButton2
+            // rdbRespuestaEspacio3
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButton2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Location = new System.Drawing.Point(45, 302);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(60, 30);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "24h";
-            this.radioButton2.UseVisualStyleBackColor = false;
+            this.rdbRespuestaEspacio3.AutoSize = true;
+            this.rdbRespuestaEspacio3.BackColor = System.Drawing.Color.Transparent;
+            this.rdbRespuestaEspacio3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rdbRespuestaEspacio3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.rdbRespuestaEspacio3.ForeColor = System.Drawing.Color.White;
+            this.rdbRespuestaEspacio3.Location = new System.Drawing.Point(318, 245);
+            this.rdbRespuestaEspacio3.Name = "rdbRespuestaEspacio3";
+            this.rdbRespuestaEspacio3.Size = new System.Drawing.Size(59, 30);
+            this.rdbRespuestaEspacio3.TabIndex = 4;
+            this.rdbRespuestaEspacio3.Text = "27h";
+            this.rdbRespuestaEspacio3.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // rdbRespuestaEspacio4
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButton3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.radioButton3.ForeColor = System.Drawing.Color.White;
-            this.radioButton3.Location = new System.Drawing.Point(318, 245);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(59, 30);
-            this.radioButton3.TabIndex = 4;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "27h";
-            this.radioButton3.UseVisualStyleBackColor = false;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButton4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.radioButton4.ForeColor = System.Drawing.Color.White;
-            this.radioButton4.Location = new System.Drawing.Point(318, 302);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(60, 30);
-            this.radioButton4.TabIndex = 5;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "23h";
-            this.radioButton4.UseVisualStyleBackColor = false;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            this.rdbRespuestaEspacio4.AutoSize = true;
+            this.rdbRespuestaEspacio4.BackColor = System.Drawing.Color.Transparent;
+            this.rdbRespuestaEspacio4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rdbRespuestaEspacio4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.rdbRespuestaEspacio4.ForeColor = System.Drawing.Color.White;
+            this.rdbRespuestaEspacio4.Location = new System.Drawing.Point(318, 302);
+            this.rdbRespuestaEspacio4.Name = "rdbRespuestaEspacio4";
+            this.rdbRespuestaEspacio4.Size = new System.Drawing.Size(60, 30);
+            this.rdbRespuestaEspacio4.TabIndex = 5;
+            this.rdbRespuestaEspacio4.Text = "23h";
+            this.rdbRespuestaEspacio4.UseVisualStyleBackColor = false;
+            this.rdbRespuestaEspacio4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // label1
             // 
@@ -122,33 +109,60 @@ namespace SpaceApp.Espacio
             this.label1.Text = "¿Cuánto dura un día en Marte? ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::SpaceApp.Properties.Resources.ezgif_com_gif_maker__6_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 100);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(203, 116);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAceptar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.btnAceptar.ForeColor = System.Drawing.Color.Blue;
+            this.btnAceptar.Location = new System.Drawing.Point(475, 275);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(93, 35);
+            this.btnAceptar.TabIndex = 12;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
             // espacio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SpaceApp.Properties.Resources.Infinite_loop_space_gif;
             this.ClientSize = new System.Drawing.Size(679, 352);
+            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.rdbRespuestaEspacio4);
+            this.Controls.Add(this.rdbRespuestaEspacio3);
+            this.Controls.Add(this.rdbRespuestaEspacio2);
+            this.Controls.Add(this.rdbRespuestaEspacio1);
             this.Name = "espacio1";
             this.Text = "espacio1";
             this.Load += new System.EventHandler(this.espacio1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rdbRespuestaEspacio1;
+        private System.Windows.Forms.RadioButton rdbRespuestaEspacio2;
+        private System.Windows.Forms.RadioButton rdbRespuestaEspacio3;
+        private System.Windows.Forms.RadioButton rdbRespuestaEspacio4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnAceptar;
     }
 }

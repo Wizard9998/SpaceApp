@@ -32,9 +32,10 @@ namespace SpaceApp.Espacio
             this.label1 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rdb4 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +61,6 @@ namespace SpaceApp.Espacio
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(255, 30);
             this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
             this.radioButton1.Text = "2.5 unidades astronómicas";
             this.radioButton1.UseVisualStyleBackColor = false;
             // 
@@ -74,23 +74,21 @@ namespace SpaceApp.Espacio
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(241, 30);
             this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "5 unidades astronómicas";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // rdb4
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.radioButton3.ForeColor = System.Drawing.Color.White;
-            this.radioButton3.Location = new System.Drawing.Point(318, 302);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(253, 30);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "1.5 unidades astronómicas";
-            this.radioButton3.UseVisualStyleBackColor = false;
+            this.rdb4.AutoSize = true;
+            this.rdb4.BackColor = System.Drawing.Color.Transparent;
+            this.rdb4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.rdb4.ForeColor = System.Drawing.Color.White;
+            this.rdb4.Location = new System.Drawing.Point(318, 302);
+            this.rdb4.Name = "rdb4";
+            this.rdb4.Size = new System.Drawing.Size(253, 30);
+            this.rdb4.TabIndex = 3;
+            this.rdb4.Text = "1.5 unidades astronómicas";
+            this.rdb4.UseVisualStyleBackColor = false;
             // 
             // radioButton4
             // 
@@ -102,20 +100,34 @@ namespace SpaceApp.Espacio
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(238, 30);
             this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "1 unidades astronómicas";
             this.radioButton4.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::SpaceApp.Properties.Resources.ezgif_com_gif_maker__3_;
-            this.pictureBox1.Location = new System.Drawing.Point(476, 117);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::SpaceApp.Properties.Resources.ezgif_com_gif_maker__6_;
+            this.pictureBox1.Location = new System.Drawing.Point(450, 100);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(203, 83);
+            this.pictureBox1.Size = new System.Drawing.Size(203, 116);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(578, 271);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(89, 36);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Aceptar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Espacio3
             // 
@@ -123,14 +135,16 @@ namespace SpaceApp.Espacio
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SpaceApp.Properties.Resources.Infinite_loop_space_gif;
             this.ClientSize = new System.Drawing.Size(679, 352);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.rdb4);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Name = "Espacio3";
             this.Text = "Espacio3";
+            this.Load += new System.EventHandler(this.Espacio3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -142,8 +156,9 @@ namespace SpaceApp.Espacio
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton rdb4;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
