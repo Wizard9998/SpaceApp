@@ -61,7 +61,7 @@ namespace SpaceApp.clases
         }
 
 
-         static void ComprobarRespuesta(int distancia, int vida, int respuesta)
+        public static void ComprobarRespuesta(int distancia, int vida, int respuesta)
 
             {
                 if (vida > 0)
