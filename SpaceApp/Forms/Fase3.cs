@@ -17,7 +17,7 @@ namespace SpaceApp.Forms
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,11 +26,16 @@ namespace SpaceApp.Forms
             {
                 pictureBox1.Visible = (true);
                 MessageBox.Show("Perfecto , haz acertado la respuesta");
-                Fase3 f = new Fase3();
-                f.Show();
+                Espacio.espacio1 esp = new Espacio.espacio1();
+                esp.Show();
                 this.Close();
             }
             else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+        }
+
+        private void Fase3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
