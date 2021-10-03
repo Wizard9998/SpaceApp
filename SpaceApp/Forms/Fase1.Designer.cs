@@ -38,7 +38,7 @@ namespace SpaceApp.Forms
             this.rdbRespuesta2 = new System.Windows.Forms.RadioButton();
             this.rdbRespuesta3 = new System.Windows.Forms.RadioButton();
             this.rdbRespuesta4 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnResponder = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -54,7 +54,7 @@ namespace SpaceApp.Forms
             this.lbPregunta.Name = "lbPregunta";
             this.lbPregunta.Size = new System.Drawing.Size(251, 29);
             this.lbPregunta.TabIndex = 5;
-            this.lbPregunta.Text = "¿Qué es un motor Warp?";
+            
             // 
             // pictureBox1
             // 
@@ -97,66 +97,56 @@ namespace SpaceApp.Forms
             // rdbRespuesta1
             // 
             this.rdbRespuesta1.AutoSize = true;
-            this.rdbRespuesta1.BackColor = System.Drawing.Color.Transparent;
-            this.rdbRespuesta1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
-            this.rdbRespuesta1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.rdbRespuesta1.ForeColor = System.Drawing.Color.Black;
-            this.rdbRespuesta1.Location = new System.Drawing.Point(54, 159);
+            this.rdbRespuesta1.Location = new System.Drawing.Point(54, 145);
             this.rdbRespuesta1.Name = "rdbRespuesta1";
-            this.rdbRespuesta1.Size = new System.Drawing.Size(117, 19);
+            this.rdbRespuesta1.Size = new System.Drawing.Size(94, 19);
             this.rdbRespuesta1.TabIndex = 10;
-            this.rdbRespuesta1.Text = "Motor Hipotetico";
-            this.rdbRespuesta1.UseVisualStyleBackColor = false;
-            this.rdbRespuesta1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rdbRespuesta1.TabStop = true;
+            this.rdbRespuesta1.Text = "radioButton1";
+            this.rdbRespuesta1.UseVisualStyleBackColor = true;
             // 
             // rdbRespuesta2
             // 
             this.rdbRespuesta2.AutoSize = true;
-            this.rdbRespuesta2.BackColor = System.Drawing.Color.Transparent;
-            this.rdbRespuesta2.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
-            this.rdbRespuesta2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.rdbRespuesta2.Location = new System.Drawing.Point(54, 252);
             this.rdbRespuesta2.Name = "rdbRespuesta2";
-            this.rdbRespuesta2.Size = new System.Drawing.Size(106, 19);
+            this.rdbRespuesta2.Size = new System.Drawing.Size(94, 19);
             this.rdbRespuesta2.TabIndex = 11;
-            this.rdbRespuesta2.Text = "Motor Electrico";
-            this.rdbRespuesta2.UseVisualStyleBackColor = false;
+            this.rdbRespuesta2.TabStop = true;
+            this.rdbRespuesta2.Text = "radioButton2";
+            this.rdbRespuesta2.UseVisualStyleBackColor = true;
             // 
             // rdbRespuesta3
             // 
             this.rdbRespuesta3.AutoSize = true;
-            this.rdbRespuesta3.BackColor = System.Drawing.Color.Transparent;
-            this.rdbRespuesta3.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
-            this.rdbRespuesta3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.rdbRespuesta3.Location = new System.Drawing.Point(186, 159);
+            this.rdbRespuesta3.Location = new System.Drawing.Point(211, 252);
             this.rdbRespuesta3.Name = "rdbRespuesta3";
-            this.rdbRespuesta3.Size = new System.Drawing.Size(101, 19);
+            this.rdbRespuesta3.Size = new System.Drawing.Size(94, 19);
             this.rdbRespuesta3.TabIndex = 12;
-            this.rdbRespuesta3.Text = "Motor Hibrido";
-            this.rdbRespuesta3.UseVisualStyleBackColor = false;
+            this.rdbRespuesta3.TabStop = true;
+            this.rdbRespuesta3.Text = "radioButton3";
+            this.rdbRespuesta3.UseVisualStyleBackColor = true;
             // 
             // rdbRespuesta4
             // 
             this.rdbRespuesta4.AutoSize = true;
-            this.rdbRespuesta4.BackColor = System.Drawing.Color.Transparent;
-            this.rdbRespuesta4.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
-            this.rdbRespuesta4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.rdbRespuesta4.Location = new System.Drawing.Point(186, 252);
+            this.rdbRespuesta4.Location = new System.Drawing.Point(211, 145);
             this.rdbRespuesta4.Name = "rdbRespuesta4";
-            this.rdbRespuesta4.Size = new System.Drawing.Size(112, 19);
+            this.rdbRespuesta4.Size = new System.Drawing.Size(94, 19);
             this.rdbRespuesta4.TabIndex = 13;
-            this.rdbRespuesta4.Text = "Motor de Fusion";
-            this.rdbRespuesta4.UseVisualStyleBackColor = false;
+            this.rdbRespuesta4.TabStop = true;
+            this.rdbRespuesta4.Text = "radioButton4";
+            this.rdbRespuesta4.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnResponder
             // 
-            this.button1.Location = new System.Drawing.Point(124, 348);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnResponder.Location = new System.Drawing.Point(128, 329);
+            this.btnResponder.Name = "btnResponder";
+            this.btnResponder.Size = new System.Drawing.Size(75, 23);
+            this.btnResponder.TabIndex = 14;
+            this.btnResponder.Text = "button1";
+            this.btnResponder.UseVisualStyleBackColor = true;
+            this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
             // 
             // Fase1
             // 
@@ -165,7 +155,7 @@ namespace SpaceApp.Forms
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(803, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnResponder);
             this.Controls.Add(this.rdbRespuesta4);
             this.Controls.Add(this.rdbRespuesta3);
             this.Controls.Add(this.rdbRespuesta2);
@@ -176,7 +166,6 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.pictureBox2);
             this.Name = "Fase1";
             this.Text = "Fase1";
-            this.Load += new System.EventHandler(this.Fase1_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -194,6 +183,6 @@ namespace SpaceApp.Forms
         private System.Windows.Forms.RadioButton rdbRespuesta2;
         private System.Windows.Forms.RadioButton rdbRespuesta3;
         private System.Windows.Forms.RadioButton rdbRespuesta4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnResponder;
     }
 }

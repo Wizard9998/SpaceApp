@@ -24,7 +24,7 @@ namespace SpaceApp.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Fase1 f = new Fase1(fachada);
+            Fase1 f = new Fase1();
             f.Show();
             this.Close();
         }
