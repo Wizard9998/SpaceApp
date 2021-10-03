@@ -93,6 +93,16 @@ namespace SpaceApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LATIERRA2 {
+            get {
+                object obj = ResourceManager.GetObject("LATIERRA2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap marte {
             get {
                 object obj = ResourceManager.GetObject("marte", resourceCulture);
