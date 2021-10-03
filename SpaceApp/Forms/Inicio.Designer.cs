@@ -51,10 +51,11 @@ namespace SpaceApp
             // 
             // btnStart
             // 
+            this.btnStart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnStart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnStart.BackgroundImage")));
             this.btnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnStart.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnStart.Location = new System.Drawing.Point(140, 326);
+            this.btnStart.Location = new System.Drawing.Point(140, 313);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(133, 43);
             this.btnStart.TabIndex = 1;
@@ -64,7 +65,9 @@ namespace SpaceApp
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SpaceApp.Properties.Resources.Infinite_loop_space_gif;
-            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.MaximumSize = new System.Drawing.Size(420, 420);
+            this.pictureBox1.MinimumSize = new System.Drawing.Size(420, 420);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(420, 420);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -76,12 +79,14 @@ namespace SpaceApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 419);
+            this.ClientSize = new System.Drawing.Size(416, 393);
             this.Controls.Add(this.txtTitulo);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(432, 432);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(432, 432);
             this.Name = "FormInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Start";
