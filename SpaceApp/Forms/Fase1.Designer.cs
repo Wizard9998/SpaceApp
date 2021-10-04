@@ -189,6 +189,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.lbPregunta);
             this.Controls.Add(this.pictureBox2);
             this.Name = "Fase1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DEMO";
             this.Load += new System.EventHandler(this.Fase1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

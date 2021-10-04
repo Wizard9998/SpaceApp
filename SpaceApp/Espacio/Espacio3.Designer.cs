@@ -145,6 +145,7 @@ namespace SpaceApp.Espacio
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Name = "Espacio3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DEMO";
             this.Load += new System.EventHandler(this.Espacio3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

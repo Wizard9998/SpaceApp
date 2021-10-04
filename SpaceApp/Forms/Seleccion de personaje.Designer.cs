@@ -71,10 +71,11 @@ namespace SpaceApp.Forms
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(94, 73);
+            this.txtNombre.Location = new System.Drawing.Point(76, 75);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(111, 23);
             this.txtNombre.TabIndex = 2;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // label3
             // 
@@ -109,7 +110,7 @@ namespace SpaceApp.Forms
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(468, 78);
+            this.txtEdad.Location = new System.Drawing.Point(460, 75);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(75, 23);
             this.txtEdad.TabIndex = 6;

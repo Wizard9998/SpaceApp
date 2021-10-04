@@ -148,6 +148,7 @@ namespace SpaceApp.Espacio
             this.Controls.Add(this.rdbRespuestaEspacio2);
             this.Controls.Add(this.rdbRespuestaEspacio1);
             this.Name = "espacio1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DEMO";
             this.Load += new System.EventHandler(this.espacio1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
