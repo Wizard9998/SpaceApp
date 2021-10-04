@@ -104,9 +104,9 @@ namespace SpaceApp.Espacio
             this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(194, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(272, 26);
+            this.label1.Size = new System.Drawing.Size(239, 26);
             this.label1.TabIndex = 7;
-            this.label1.Text = "¿Cuánto dura un día en Marte? ";
+            this.label1.Text = "How long is a day on Mars?";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
@@ -125,12 +125,12 @@ namespace SpaceApp.Espacio
             this.btnAceptar.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
             this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAceptar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.btnAceptar.ForeColor = System.Drawing.Color.Blue;
+            this.btnAceptar.ForeColor = System.Drawing.Color.Black;
             this.btnAceptar.Location = new System.Drawing.Point(475, 275);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(93, 35);
+            this.btnAceptar.Size = new System.Drawing.Size(110, 36);
             this.btnAceptar.TabIndex = 12;
-            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.Text = "Confirm";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 

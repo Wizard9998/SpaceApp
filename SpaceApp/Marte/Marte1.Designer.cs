@@ -66,9 +66,9 @@ namespace SpaceApp.Marte
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(20, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(355, 78);
+            this.label1.Size = new System.Drawing.Size(258, 78);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Felicidades! \r\nMision completada:\r\nHas conseguido tu primer coleccionable ";
+            this.label1.Text = "Congratulations!\r\nMission to Mars completed:\r\nYou got your first collectible.\r\n";
             // 
             // Marte1
             // 

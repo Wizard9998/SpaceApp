@@ -26,12 +26,32 @@ namespace SpaceApp.Forms
             if (radioButton1.Checked == true)
             {
                 pictureBox3.Visible = (true);
-                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                MessageBox.Show("Perfect, you got the answer right !!");
                 Fase3 f = new Fase3();
                 f.Show();
                 this.Close();
             }
-            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+            else MessageBox.Show("Wrong answer, try again");
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

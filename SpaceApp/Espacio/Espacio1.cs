@@ -41,12 +41,12 @@ namespace SpaceApp.Espacio
             {
 
                 pictureBox1.Location = new Point(200,100);
-                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                MessageBox.Show("Perfect, you got the answer right !!");
                 Espacio2 es = new Espacio2();
                 es.Show();
                 this.Close();
             }
-            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+            else MessageBox.Show("Wrong answer, try again");
         }
     }
 }

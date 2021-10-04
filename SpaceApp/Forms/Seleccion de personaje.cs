@@ -47,7 +47,7 @@ namespace SpaceApp.Forms
             }
             catch (Exception error)
             {
-                MessageBox.Show("Ya ingresaste un astronautoa");
+                MessageBox.Show("You already entered an astronaut");
             }
         }
         

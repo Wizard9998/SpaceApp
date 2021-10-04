@@ -41,12 +41,12 @@ namespace SpaceApp.Forms
             // lblDato
             // 
             this.lblDato.AutoSize = true;
-            this.lblDato.Font = new System.Drawing.Font("standard 07_53", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDato.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblDato.ForeColor = System.Drawing.SystemColors.Control;
             this.lblDato.Image = global::SpaceApp.Properties.Resources.Austronauta_fondo;
             this.lblDato.Location = new System.Drawing.Point(329, 26);
             this.lblDato.Name = "lblDato";
-            this.lblDato.Size = new System.Drawing.Size(348, 270);
+            this.lblDato.Size = new System.Drawing.Size(334, 225);
             this.lblDato.TabIndex = 0;
             this.lblDato.Text = resources.GetString("lblDato.Text");
             this.lblDato.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -79,9 +79,9 @@ namespace SpaceApp.Forms
             this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAceptar.Location = new System.Drawing.Point(507, 317);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(90, 23);
             this.btnAceptar.TabIndex = 3;
-            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.Text = "I agree";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
@@ -89,11 +89,11 @@ namespace SpaceApp.Forms
             // 
             this.btnNoAcepto.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
             this.btnNoAcepto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNoAcepto.Location = new System.Drawing.Point(405, 317);
+            this.btnNoAcepto.Location = new System.Drawing.Point(382, 317);
             this.btnNoAcepto.Name = "btnNoAcepto";
-            this.btnNoAcepto.Size = new System.Drawing.Size(75, 23);
+            this.btnNoAcepto.Size = new System.Drawing.Size(98, 23);
             this.btnNoAcepto.TabIndex = 4;
-            this.btnNoAcepto.Text = "No acepto";
+            this.btnNoAcepto.Text = "I do not accept";
             this.btnNoAcepto.UseVisualStyleBackColor = true;
             this.btnNoAcepto.Click += new System.EventHandler(this.btnNoAcepto_Click);
             // 
@@ -111,7 +111,7 @@ namespace SpaceApp.Forms
             this.Controls.Add(this.lblDato);
             this.Name = "PantallaCarga";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pantalla Carga(DEMO)";
+            this.Text = "Mission(DEMO)";
             this.Load += new System.EventHandler(this.PantallaCarga_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

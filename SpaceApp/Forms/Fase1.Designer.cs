@@ -100,11 +100,11 @@ namespace SpaceApp.Forms
             this.rdbRespuesta1.BackColor = System.Drawing.Color.Transparent;
             this.rdbRespuesta1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.rdbRespuesta1.ForeColor = System.Drawing.Color.White;
-            this.rdbRespuesta1.Location = new System.Drawing.Point(24, 93);
+            this.rdbRespuesta1.Location = new System.Drawing.Point(15, 93);
             this.rdbRespuesta1.Name = "rdbRespuesta1";
-            this.rdbRespuesta1.Size = new System.Drawing.Size(161, 30);
+            this.rdbRespuesta1.Size = new System.Drawing.Size(178, 30);
             this.rdbRespuesta1.TabIndex = 10;
-            this.rdbRespuesta1.Text = "El Falcon Heavy";
+            this.rdbRespuesta1.Text = "The Falcon Heavy";
             this.rdbRespuesta1.UseVisualStyleBackColor = false;
             // 
             // rdbRespuesta2
@@ -126,7 +126,7 @@ namespace SpaceApp.Forms
             this.rdbRespuesta3.BackColor = System.Drawing.Color.Transparent;
             this.rdbRespuesta3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.rdbRespuesta3.ForeColor = System.Drawing.Color.White;
-            this.rdbRespuesta3.Location = new System.Drawing.Point(171, 145);
+            this.rdbRespuesta3.Location = new System.Drawing.Point(218, 145);
             this.rdbRespuesta3.Name = "rdbRespuesta3";
             this.rdbRespuesta3.Size = new System.Drawing.Size(109, 30);
             this.rdbRespuesta3.TabIndex = 12;
@@ -139,7 +139,7 @@ namespace SpaceApp.Forms
             this.rdbRespuesta4.BackColor = System.Drawing.Color.Transparent;
             this.rdbRespuesta4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.rdbRespuesta4.ForeColor = System.Drawing.Color.White;
-            this.rdbRespuesta4.Location = new System.Drawing.Point(191, 93);
+            this.rdbRespuesta4.Location = new System.Drawing.Point(218, 93);
             this.rdbRespuesta4.Name = "rdbRespuesta4";
             this.rdbRespuesta4.Size = new System.Drawing.Size(90, 30);
             this.rdbRespuesta4.TabIndex = 13;
@@ -155,7 +155,7 @@ namespace SpaceApp.Forms
             this.btnResponder.Name = "btnResponder";
             this.btnResponder.Size = new System.Drawing.Size(108, 34);
             this.btnResponder.TabIndex = 14;
-            this.btnResponder.Text = "Confirmar";
+            this.btnResponder.Text = "Confirm";
             this.btnResponder.UseVisualStyleBackColor = false;
             this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
             // 
@@ -167,9 +167,9 @@ namespace SpaceApp.Forms
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(13, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(450, 26);
+            this.label1.Size = new System.Drawing.Size(335, 26);
             this.label1.TabIndex = 15;
-            this.label1.Text = "¿Cuál es el cohete más grande de todos los tiempos?";
+            this.label1.Text = "What is the biggest rocket of all time?";
             // 
             // Fase1
             // 

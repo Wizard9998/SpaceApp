@@ -47,9 +47,9 @@ namespace SpaceApp.Espacio
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(194, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 26);
+            this.label1.Size = new System.Drawing.Size(308, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "¿Cuántas lunas tiene Marte?";
+            this.label1.Text = "How many moons does Mars have?";
             // 
             // rdbRespuestaX1
             // 
@@ -59,11 +59,11 @@ namespace SpaceApp.Espacio
             this.rdbRespuestaX1.ForeColor = System.Drawing.Color.White;
             this.rdbRespuestaX1.Location = new System.Drawing.Point(45, 245);
             this.rdbRespuestaX1.Name = "rdbRespuestaX1";
-            this.rdbRespuestaX1.Size = new System.Drawing.Size(89, 30);
+            this.rdbRespuestaX1.Size = new System.Drawing.Size(102, 30);
             this.rdbRespuestaX1.TabIndex = 1;
-            this.rdbRespuestaX1.TabStop = true;
-            this.rdbRespuestaX1.Text = "3 lunas";
+            this.rdbRespuestaX1.Text = "3 moons";
             this.rdbRespuestaX1.UseVisualStyleBackColor = false;
+            this.rdbRespuestaX1.CheckedChanged += new System.EventHandler(this.rdbRespuestaX1_CheckedChanged);
             // 
             // rdbRespuestaX2
             // 
@@ -73,10 +73,9 @@ namespace SpaceApp.Espacio
             this.rdbRespuestaX2.ForeColor = System.Drawing.Color.White;
             this.rdbRespuestaX2.Location = new System.Drawing.Point(45, 302);
             this.rdbRespuestaX2.Name = "rdbRespuestaX2";
-            this.rdbRespuestaX2.Size = new System.Drawing.Size(88, 30);
+            this.rdbRespuestaX2.Size = new System.Drawing.Size(101, 30);
             this.rdbRespuestaX2.TabIndex = 2;
-            this.rdbRespuestaX2.TabStop = true;
-            this.rdbRespuestaX2.Text = "2 lunas";
+            this.rdbRespuestaX2.Text = "2 moons";
             this.rdbRespuestaX2.UseVisualStyleBackColor = false;
             // 
             // radioButton3
@@ -87,11 +86,11 @@ namespace SpaceApp.Espacio
             this.radioButton3.ForeColor = System.Drawing.Color.White;
             this.radioButton3.Location = new System.Drawing.Point(318, 245);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(78, 30);
+            this.radioButton3.Size = new System.Drawing.Size(99, 30);
             this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "1 luna";
+            this.radioButton3.Text = "1 moons";
             this.radioButton3.UseVisualStyleBackColor = false;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -101,10 +100,9 @@ namespace SpaceApp.Espacio
             this.radioButton4.ForeColor = System.Drawing.Color.White;
             this.radioButton4.Location = new System.Drawing.Point(318, 302);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(89, 30);
+            this.radioButton4.Size = new System.Drawing.Size(102, 30);
             this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "4 lunas";
+            this.radioButton4.Text = "4 moons";
             this.radioButton4.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
@@ -124,12 +122,12 @@ namespace SpaceApp.Espacio
             this.button1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(521, 279);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 37);
+            this.button1.Size = new System.Drawing.Size(110, 36);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Aceptar";
+            this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

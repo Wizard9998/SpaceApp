@@ -50,11 +50,11 @@ namespace SpaceApp.Forms
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(107, 35);
+            this.label1.Location = new System.Drawing.Point(59, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(420, 26);
+            this.label1.Size = new System.Drawing.Size(423, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "¿Cuál de estas sondas espaciales estudia Júpiter?";
+            this.label1.Text = "Which of these space probes is studying Jupiter?";
             // 
             // button1
             // 
@@ -64,7 +64,7 @@ namespace SpaceApp.Forms
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 34);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Confirmar";
+            this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -102,7 +102,7 @@ namespace SpaceApp.Forms
             this.radioButton3.BackColor = System.Drawing.Color.Transparent;
             this.radioButton3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.radioButton3.ForeColor = System.Drawing.Color.White;
-            this.radioButton3.Location = new System.Drawing.Point(59, 183);
+            this.radioButton3.Location = new System.Drawing.Point(39, 183);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(71, 30);
             this.radioButton3.TabIndex = 11;

@@ -58,20 +58,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblDato.Text" xml:space="preserve">
-    <value>Misión: Eres el astronauta elegido por la Nasa
- para la misión
- más importante de nuestro planeta, 
-colonizar el universo, explorando y 
-colonizando cada planeta 
-de él.
-En esta instancia es llegar a Marte.
-La misión es verdaderamente complicada,
- pues tendrás que
- construir tu propia nave para poder
- aventurarte en el espacio 
-y determinaremos cuánto sabes y si serás 
-capaz de cumplir esta
- misión tan importante .
-¿Crees que puedas hacerlo?.</value>
+    <value>Mission: You are the astronaut chosen by NASA
+ for the mission
+ most important of our planet,
+colonize the universe, exploring and
+colonizing every planet
+of the.
+In this instance it is to get to Mars.
+The mission is really complicated,
+ well you will have to
+ build your own ship so you can
+ venture into space
+and we will determine how much you know and if you will be
+able to fulfill this
+ mission so important.
+Do you think you can do it?</value>
   </data>
 </root>

@@ -28,16 +28,26 @@ namespace SpaceApp.Espacio
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (rdb4.Checked == true)
+            if (radioButton4.Checked == true)
             {
 
                 pictureBox1.Location = new Point(800, 100);
-                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                MessageBox.Show("Perfect, you got the answer right !!");
                 Marte1 m = new Marte1();
                 m.Show();
                 this.Close();
             }
-            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+            else MessageBox.Show("Wrong answer, try again");
+        }
+
+        private void rdb4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

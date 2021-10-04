@@ -25,12 +25,12 @@ namespace SpaceApp.Forms
             if (radioButton3.Checked == true)
             {
                 pictureBox1.Visible = (true);
-                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                MessageBox.Show("Perfect, you got the answer right !!");
                 Espacio.espacio1 esp = new Espacio.espacio1();
                 esp.Show();
                 this.Close();
             }
-            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+            else MessageBox.Show("Wrong answer, try again");
         }
 
         private void Fase3_Load(object sender, EventArgs e)

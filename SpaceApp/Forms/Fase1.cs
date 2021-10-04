@@ -23,12 +23,12 @@ namespace SpaceApp.Forms
             if (rdbRespuesta1.Checked == true)
             {
                 pictureBox2.Visible = (true);
-                MessageBox.Show("Perfecto , haz acertado la respuesta");
+                MessageBox.Show("Perfect, you got the answer right !!");
                 Fase2 f = new Fase2();
                 f.Show();
                 this.Close();
             }
-            else MessageBox.Show("Respuesta incorrecta , vuelve a intentarlo");
+            else MessageBox.Show("Wrong answer, try again");
         }
 
        

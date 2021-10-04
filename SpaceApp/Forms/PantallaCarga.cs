@@ -42,7 +42,7 @@ namespace SpaceApp.Forms
 
         private void btnNoAcepto_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Para la proxima entoces :D");
+            MessageBox.Show("The next one will be for you :D");
             this.Close();
         }
     }

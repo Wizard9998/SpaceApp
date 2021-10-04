@@ -53,9 +53,9 @@ namespace SpaceApp.Forms
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(193, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 26);
+            this.label1.Size = new System.Drawing.Size(186, 52);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Arma tu personaje";
+            this.label1.Text = "Build your character\r\n\r\n";
             // 
             // label2
             // 
@@ -65,9 +65,9 @@ namespace SpaceApp.Forms
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 26);
+            this.label2.Size = new System.Drawing.Size(67, 26);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre:";
+            this.label2.Text = "Name:";
             // 
             // txtNombre
             // 
@@ -84,13 +84,13 @@ namespace SpaceApp.Forms
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(193, 70);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 26);
+            this.label3.Size = new System.Drawing.Size(105, 26);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Apellido:";
+            this.label3.Text = "Last name:";
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(282, 75);
+            this.txtApellido.Location = new System.Drawing.Point(295, 75);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(111, 23);
             this.txtApellido.TabIndex = 4;
@@ -101,15 +101,15 @@ namespace SpaceApp.Forms
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(399, 75);
+            this.label4.Location = new System.Drawing.Point(412, 75);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 26);
+            this.label4.Size = new System.Drawing.Size(51, 26);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Edad:";
+            this.label4.Text = "Age:";
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(455, 78);
+            this.txtEdad.Location = new System.Drawing.Point(468, 78);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(75, 23);
             this.txtEdad.TabIndex = 6;
@@ -122,7 +122,7 @@ namespace SpaceApp.Forms
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(94, 29);
             this.btnAceptar.TabIndex = 7;
-            this.btnAceptar.Text = "Confirmar";
+            this.btnAceptar.Text = "Confirm";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
@@ -134,7 +134,7 @@ namespace SpaceApp.Forms
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 31);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Siguiente";
+            this.button1.Text = "Next";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -153,17 +153,17 @@ namespace SpaceApp.Forms
             // 
             // Nombre
             // 
-            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.HeaderText = "Name";
             this.Nombre.Name = "Nombre";
             // 
             // Apellido
             // 
-            this.Apellido.HeaderText = "Apellido";
+            this.Apellido.HeaderText = "Last name";
             this.Apellido.Name = "Apellido";
             // 
             // Edad
             // 
-            this.Edad.HeaderText = "Edad";
+            this.Edad.HeaderText = "Age";
             this.Edad.Name = "Edad";
             // 
             // Seleccion

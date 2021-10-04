@@ -47,9 +47,9 @@ namespace SpaceApp.Espacio
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(194, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(281, 26);
+            this.label1.Size = new System.Drawing.Size(285, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "¿A cuanta distancia esta del sol?";
+            this.label1.Text = "How far away is it from the sun?";
             // 
             // radioButton1
             // 
@@ -59,9 +59,9 @@ namespace SpaceApp.Espacio
             this.radioButton1.ForeColor = System.Drawing.Color.White;
             this.radioButton1.Location = new System.Drawing.Point(45, 245);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(255, 30);
+            this.radioButton1.Size = new System.Drawing.Size(221, 30);
             this.radioButton1.TabIndex = 1;
-            this.radioButton1.Text = "2.5 unidades astronómicas";
+            this.radioButton1.Text = "2.5 Astronomical units";
             this.radioButton1.UseVisualStyleBackColor = false;
             // 
             // radioButton2
@@ -72,9 +72,9 @@ namespace SpaceApp.Espacio
             this.radioButton2.ForeColor = System.Drawing.Color.White;
             this.radioButton2.Location = new System.Drawing.Point(45, 302);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(241, 30);
+            this.radioButton2.Size = new System.Drawing.Size(207, 30);
             this.radioButton2.TabIndex = 2;
-            this.radioButton2.Text = "5 unidades astronómicas";
+            this.radioButton2.Text = "5 Astronomical units";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
             // rdb4
@@ -85,10 +85,11 @@ namespace SpaceApp.Espacio
             this.rdb4.ForeColor = System.Drawing.Color.White;
             this.rdb4.Location = new System.Drawing.Point(318, 302);
             this.rdb4.Name = "rdb4";
-            this.rdb4.Size = new System.Drawing.Size(253, 30);
+            this.rdb4.Size = new System.Drawing.Size(219, 30);
             this.rdb4.TabIndex = 3;
-            this.rdb4.Text = "1.5 unidades astronómicas";
+            this.rdb4.Text = "1.5 Astronomical units";
             this.rdb4.UseVisualStyleBackColor = false;
+            this.rdb4.CheckedChanged += new System.EventHandler(this.rdb4_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -98,10 +99,11 @@ namespace SpaceApp.Espacio
             this.radioButton4.ForeColor = System.Drawing.Color.White;
             this.radioButton4.Location = new System.Drawing.Point(318, 245);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(238, 30);
+            this.radioButton4.Size = new System.Drawing.Size(204, 30);
             this.radioButton4.TabIndex = 4;
-            this.radioButton4.Text = "1 unidades astronómicas";
+            this.radioButton4.Text = "1 Astronomical units";
             this.radioButton4.UseVisualStyleBackColor = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -120,12 +122,12 @@ namespace SpaceApp.Espacio
             this.button1.BackgroundImage = global::SpaceApp.Properties.Resources.Boton_vacio;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(578, 271);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(543, 277);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 36);
+            this.button1.Size = new System.Drawing.Size(110, 36);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Aceptar";
+            this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

@@ -50,11 +50,11 @@ namespace SpaceApp.Forms
             this.labPregunta.BackColor = System.Drawing.Color.Transparent;
             this.labPregunta.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.labPregunta.ForeColor = System.Drawing.Color.White;
-            this.labPregunta.Location = new System.Drawing.Point(98, 54);
+            this.labPregunta.Location = new System.Drawing.Point(33, 42);
             this.labPregunta.Name = "labPregunta";
-            this.labPregunta.Size = new System.Drawing.Size(386, 26);
+            this.labPregunta.Size = new System.Drawing.Size(441, 26);
             this.labPregunta.TabIndex = 0;
-            this.labPregunta.Text = "¿Cuál fue la nave espacial que llego a la luna?";
+            this.labPregunta.Text = "What was the spaceship that landed on the moon?";
             // 
             // button1
             // 
@@ -64,7 +64,7 @@ namespace SpaceApp.Forms
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 34);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Confirmar";
+            this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -74,13 +74,14 @@ namespace SpaceApp.Forms
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(136, 109);
+            this.radioButton1.Location = new System.Drawing.Point(162, 109);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(99, 30);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Apolo 11";
             this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -95,6 +96,7 @@ namespace SpaceApp.Forms
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Proton-M";
             this.radioButton2.UseVisualStyleBackColor = false;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -102,13 +104,14 @@ namespace SpaceApp.Forms
             this.radioButton3.BackColor = System.Drawing.Color.Transparent;
             this.radioButton3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.radioButton3.ForeColor = System.Drawing.Color.White;
-            this.radioButton3.Location = new System.Drawing.Point(133, 166);
+            this.radioButton3.Location = new System.Drawing.Point(159, 166);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(102, 30);
             this.radioButton3.TabIndex = 11;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Electron";
             this.radioButton3.UseVisualStyleBackColor = false;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -123,6 +126,7 @@ namespace SpaceApp.Forms
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "PSLV";
             this.radioButton4.UseVisualStyleBackColor = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // pictureBox3
             // 
